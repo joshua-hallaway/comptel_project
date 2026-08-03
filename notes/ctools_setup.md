@@ -25,19 +25,15 @@ cd ctools
 ```Bash
 make -j$(nproc)
 ```
-8. Ensure build passes all tests with
-```Bash
-make check
-```
-9. Install **ctools** to the **conda** environment with
+8. Install **ctools** to the **conda** environment with
 ```Bash
 make install
 ```
-10. Verify installation with
+9. Verify installation with
 ```Bash
 python -c "import ctools; print(ctools.__version__)"
 ```
-11. Check tools with
+10. Check tools with
 ```Bash
 which ctobssim
 which ctlike
