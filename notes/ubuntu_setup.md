@@ -33,8 +33,8 @@ sudo apt install -y \
 8. Install **Miniconda** by running
 ```Bash
 cd ~
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-bash Miniconda3-latest-Linux-x86_64.sh
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-aarch64.sh
+bash Miniconda3-latest-Linux-aarch64.sh
 ```
 9. Reboot **Ubuntu** by running
 ```Bash
@@ -44,22 +44,27 @@ source ~/.bashrc
 ```Bash
 conda --version
 ```
-11. Create and enter a dedicated **conda** work environment by running
+11. Accept the Terms of Service with
+```Bash
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
+```
+12. Create and enter a dedicated **conda** work environment by running
 ```Bash
 conda create -n dSph-dark-matter python=3.10 -y
 conda activate dSph-dark-matter
 ```
-12. Connect **VS Code** to **Ubuntu** by running
+13. Connect **VS Code** to **Ubuntu** by running
 ```Bash
 code .
 ```
-13. Close **VS Code** and return to the **Ubuntu** terminal and make and enter a project folder by running
+14. Close **VS Code** and return to the **Ubuntu** terminal and make and enter a project folder by running
 ```Bash
 mkdir ~/comptel_project
 cd ~/comptel_project
 ```
-14. Go to **GitHub** and make a new repository titled `comptel_project`
-15. Return to the **Ubuntu** terminal and initialize **Git** by running
+15. Go to **GitHub** and make a new repository titled `comptel_project`
+16. Return to the **Ubuntu** terminal and initialize **Git** by running
 ```Bash
 git init
 git remote add origin git@github.com:joshua-hallaway/comptel_project.git
