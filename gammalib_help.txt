@@ -1,0 +1,3130 @@
+=== GCOMBvc ===
+Help on class GCOMBvc in module gammalib.com:
+
+class GCOMBvc(gammalib.base.GBase)
+ |  GCOMBvc(*args)
+ |  
+ |  Proxy of C++ GCOMBvc class.
+ |  
+ |  Method resolution order:
+ |      GCOMBvc
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMBvc self) -> GCOMBvc
+ |      __init__(GCOMBvc self, GCOMBvc bvc) -> GCOMBvc
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  classname(self)
+ |      classname(GCOMBvc self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMBvc self)
+ |  
+ |  clone(self)
+ |      clone(GCOMBvc self) -> GCOMBvc
+ |  
+ |  copy(self)
+ |      copy(GCOMBvc self) -> GCOMBvc
+ |  
+ |  ssb(self, *args)
+ |      ssb(GCOMBvc self) -> GVector const
+ |      ssb(GCOMBvc self, GVector const & ssb)
+ |  
+ |  tdelta(self, *args)
+ |      tdelta(GCOMBvc self) -> double const
+ |      tdelta(GCOMBvc self, double const & tdelta)
+ |      tdelta(GCOMBvc self, GSkyDir const & dir) -> double
+ |  
+ |  tics(self, *args)
+ |      tics(GCOMBvc self) -> int const
+ |      tics(GCOMBvc self, int const & tics)
+ |  
+ |  time(self, *args)
+ |      time(GCOMBvc self) -> GTime const
+ |      time(GCOMBvc self, GTime const & time)
+ |  
+ |  tjd(self, *args)
+ |      tjd(GCOMBvc self) -> int const
+ |      tjd(GCOMBvc self, int const & tjd)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMBvc(...)
+ |      delete_GCOMBvc(GCOMBvc self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
+=== GCOMBvcs ===
+Help on class GCOMBvcs in module gammalib.com:
+
+class GCOMBvcs(gammalib.base.GContainer)
+ |  GCOMBvcs(*args)
+ |  
+ |  Proxy of C++ GCOMBvcs class.
+ |  
+ |  Method resolution order:
+ |      GCOMBvcs
+ |      gammalib.base.GContainer
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __getitem__(self, *args)
+ |      __getitem__(GCOMBvcs self, int const & index) -> GCOMBvc
+ |      __getitem__(GCOMBvcs self, PyObject * param) -> GCOMBvcs
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMBvcs self) -> GCOMBvcs
+ |      __init__(GCOMBvcs self, GFilename const & filename) -> GCOMBvcs
+ |      __init__(GCOMBvcs self, GCOMBvcs bvcs) -> GCOMBvcs
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setitem__(self, index, val)
+ |      __setitem__(GCOMBvcs self, int const & index, GCOMBvc val)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  append(self, bvc)
+ |      append(GCOMBvcs self, GCOMBvc bvc) -> GCOMBvc
+ |  
+ |  classname(self)
+ |      classname(GCOMBvcs self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMBvcs self)
+ |  
+ |  clone(self)
+ |      clone(GCOMBvcs self) -> GCOMBvcs
+ |  
+ |  copy(self)
+ |      copy(GCOMBvcs self) -> GCOMBvcs
+ |  
+ |  extend(self, bvcs)
+ |      extend(GCOMBvcs self, GCOMBvcs bvcs)
+ |  
+ |  find(self, oad)
+ |      find(GCOMBvcs self, GCOMOad oad) -> GCOMBvc
+ |  
+ |  insert(self, index, bvc)
+ |      insert(GCOMBvcs self, int const & index, GCOMBvc bvc) -> GCOMBvc
+ |  
+ |  is_empty(self)
+ |      is_empty(GCOMBvcs self) -> bool
+ |  
+ |  load(self, filename)
+ |      load(GCOMBvcs self, GFilename const & filename)
+ |  
+ |  read(self, table)
+ |      read(GCOMBvcs self, GFitsTable const & table)
+ |  
+ |  remove(self, index)
+ |      remove(GCOMBvcs self, int const & index)
+ |  
+ |  reserve(self, num)
+ |      reserve(GCOMBvcs self, int const & num)
+ |  
+ |  size(self)
+ |      size(GCOMBvcs self) -> int
+ |  
+ |  tdelta(self, dir, time)
+ |      tdelta(GCOMBvcs self, GSkyDir const & dir, GTime const & time) -> double
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMBvcs(...)
+ |      delete_GCOMBvcs(GCOMBvcs self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GContainer:
+ |  
+ |  __len__(self)
+ |      __len__(GContainer self) -> int
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
+=== GCOMD1Response ===
+Help on class GCOMD1Response in module gammalib.com:
+
+class GCOMD1Response(gammalib.base.GBase)
+ |  GCOMD1Response(*args)
+ |  
+ |  Proxy of C++ GCOMD1Response class.
+ |  
+ |  Method resolution order:
+ |      GCOMD1Response
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __call__(self, etrue, ereco)
+ |      __call__(GCOMD1Response self, double const & etrue, double const & ereco) -> double
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMD1Response self) -> GCOMD1Response
+ |      __init__(GCOMD1Response self, GCOMD1Response rsp) -> GCOMD1Response
+ |      __init__(GCOMD1Response self, GCaldb const & caldb, std::string const & sdaname) -> GCOMD1Response
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  amplitude(self, etrue)
+ |      amplitude(GCOMD1Response self, double const & etrue) -> double
+ |  
+ |  caldb(self, *args)
+ |      caldb(GCOMD1Response self, GCaldb const & caldb)
+ |      caldb(GCOMD1Response self) -> GCaldb const &
+ |  
+ |  classname(self)
+ |      classname(GCOMD1Response self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMD1Response self)
+ |  
+ |  clone(self)
+ |      clone(GCOMD1Response self) -> GCOMD1Response
+ |  
+ |  copy(self)
+ |      copy(GCOMD1Response self) -> GCOMD1Response
+ |  
+ |  emax(self, *args)
+ |      emax(GCOMD1Response self, double const & etrue) -> double
+ |      emax(GCOMD1Response self) -> double
+ |  
+ |  emin(self, *args)
+ |      emin(GCOMD1Response self, double const & etrue) -> double
+ |      emin(GCOMD1Response self) -> double
+ |  
+ |  ewidth(self, etrue)
+ |      ewidth(GCOMD1Response self, double const & etrue) -> double
+ |  
+ |  load(self, sdaname)
+ |      load(GCOMD1Response self, std::string const & sdaname)
+ |  
+ |  position(self, etrue)
+ |      position(GCOMD1Response self, double const & etrue) -> double
+ |  
+ |  read(self, hdu)
+ |      read(GCOMD1Response self, GFitsTable const & hdu)
+ |  
+ |  sigma(self, etrue)
+ |      sigma(GCOMD1Response self, double const & etrue) -> double
+ |  
+ |  write(self, table)
+ |      write(GCOMD1Response self, GFitsBinTable & table)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMD1Response(...)
+ |      delete_GCOMD1Response(GCOMD1Response self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
+=== GCOMD2Response ===
+Help on class GCOMD2Response in module gammalib.com:
+
+class GCOMD2Response(gammalib.base.GBase)
+ |  GCOMD2Response(*args)
+ |  
+ |  Proxy of C++ GCOMD2Response class.
+ |  
+ |  Method resolution order:
+ |      GCOMD2Response
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __call__(self, etrue, ereco)
+ |      __call__(GCOMD2Response self, double const & etrue, double const & ereco) -> double
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMD2Response self) -> GCOMD2Response
+ |      __init__(GCOMD2Response self, GCOMD2Response rsp) -> GCOMD2Response
+ |      __init__(GCOMD2Response self, GCaldb const & caldb, std::string const & sdbname) -> GCOMD2Response
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  amplitude(self, etrue)
+ |      amplitude(GCOMD2Response self, double const & etrue) -> double
+ |  
+ |  background(self, etrue)
+ |      background(GCOMD2Response self, double const & etrue) -> double
+ |  
+ |  caldb(self, *args)
+ |      caldb(GCOMD2Response self, GCaldb const & caldb)
+ |      caldb(GCOMD2Response self) -> GCaldb const &
+ |  
+ |  classname(self)
+ |      classname(GCOMD2Response self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMD2Response self)
+ |  
+ |  clone(self)
+ |      clone(GCOMD2Response self) -> GCOMD2Response
+ |  
+ |  comptontail(self, etrue)
+ |      comptontail(GCOMD2Response self, double const & etrue) -> double
+ |  
+ |  copy(self)
+ |      copy(GCOMD2Response self) -> GCOMD2Response
+ |  
+ |  emax(self, *args)
+ |      emax(GCOMD2Response self, double const & etrue) -> double
+ |      emax(GCOMD2Response self) -> double
+ |  
+ |  emin(self, *args)
+ |      emin(GCOMD2Response self, double const & etrue) -> double
+ |      emin(GCOMD2Response self) -> double
+ |  
+ |  escape1(self, etrue)
+ |      escape1(GCOMD2Response self, double const & etrue) -> double
+ |  
+ |  escape2(self, etrue)
+ |      escape2(GCOMD2Response self, double const & etrue) -> double
+ |  
+ |  ewidth(self, etrue)
+ |      ewidth(GCOMD2Response self, double const & etrue) -> double
+ |  
+ |  load(self, sdaname)
+ |      load(GCOMD2Response self, std::string const & sdaname)
+ |  
+ |  position(self, etrue)
+ |      position(GCOMD2Response self, double const & etrue) -> double
+ |  
+ |  read(self, hdu)
+ |      read(GCOMD2Response self, GFitsTable const & hdu)
+ |  
+ |  sigma(self, etrue)
+ |      sigma(GCOMD2Response self, double const & etrue) -> double
+ |  
+ |  write(self, table)
+ |      write(GCOMD2Response self, GFitsBinTable & table)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMD2Response(...)
+ |      delete_GCOMD2Response(GCOMD2Response self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
+=== GCOMDri ===
+Help on class GCOMDri in module gammalib.com:
+
+class GCOMDri(gammalib.base.GBase)
+ |  GCOMDri(*args)
+ |  
+ |  Proxy of C++ GCOMDri class.
+ |  
+ |  Method resolution order:
+ |      GCOMDri
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __getitem__(self, index)
+ |      __getitem__(GCOMDri self, int const & index) -> double
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMDri self) -> GCOMDri
+ |      __init__(GCOMDri self, GFilename const & filename) -> GCOMDri
+ |      __init__(GCOMDri self, GSkyMap const & map, double const & phimin=0.0, double const & phibin=0.0, int const & nphibin=0) -> GCOMDri
+ |      __init__(GCOMDri self, GCOMDri dri) -> GCOMDri
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setitem__(self, index, val)
+ |      __setitem__(GCOMDri self, int const & index, double const & val)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  classname(self)
+ |      classname(GCOMDri self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMDri self)
+ |  
+ |  clone(self)
+ |      clone(GCOMDri self) -> GCOMDri
+ |  
+ |  compute_dre(self, *args)
+ |      compute_dre(GCOMDri self, GCOMObservation obs, GCOMSelection select=GCOMSelection(), double const & zetamin=5.0)
+ |  
+ |  compute_drg(self, *args)
+ |      compute_drg(GCOMDri self, GCOMObservation obs, GCOMSelection select=GCOMSelection(), double const & zetamin=5.0)
+ |  
+ |  compute_drm(self, obs, model)
+ |      compute_drm(GCOMDri self, GCOMObservation obs, GModel model)
+ |  
+ |  compute_drx(self, *args)
+ |      compute_drx(GCOMDri self, GCOMObservation obs, GCOMSelection select=GCOMSelection())
+ |  
+ |  cone_content(self, dir, armmin, armmax)
+ |      cone_content(GCOMDri self, GSkyDir const & dir, double const & armmin, double const & armmax) -> double
+ |  
+ |  copy(self)
+ |      copy(GCOMDri self) -> GCOMDri
+ |  
+ |  ebounds(self, *args)
+ |      ebounds(GCOMDri self) -> GEbounds const
+ |      ebounds(GCOMDri self, GEbounds const & ebounds)
+ |  
+ |  gti(self, *args)
+ |      gti(GCOMDri self) -> GGti const
+ |      gti(GCOMDri self, GGti const & gti)
+ |  
+ |  load(self, filename)
+ |      load(GCOMDri self, GFilename const & filename)
+ |  
+ |  map(self)
+ |      map(GCOMDri self) -> GSkyMap const &
+ |  
+ |  name(self, *args)
+ |      name(GCOMDri self) -> std::string const
+ |      name(GCOMDri self, std::string const & name)
+ |  
+ |  nchi(self)
+ |      nchi(GCOMDri self) -> int
+ |  
+ |  nphibar(self)
+ |      nphibar(GCOMDri self) -> int
+ |  
+ |  npsi(self)
+ |      npsi(GCOMDri self) -> int
+ |  
+ |  num_skipped_superpackets(self, *args)
+ |      num_skipped_superpackets(GCOMDri self) -> int const
+ |      num_skipped_superpackets(GCOMDri self, int const & number)
+ |  
+ |  num_superpackets(self, *args)
+ |      num_superpackets(GCOMDri self) -> int const
+ |      num_superpackets(GCOMDri self, int const & number)
+ |  
+ |  num_used_superpackets(self, *args)
+ |      num_used_superpackets(GCOMDri self) -> int const
+ |      num_used_superpackets(GCOMDri self, int const & number)
+ |  
+ |  phase_correction(self, *args)
+ |      phase_correction(GCOMDri self) -> double const
+ |      phase_correction(GCOMDri self, double const & phasecor)
+ |  
+ |  phibin(self)
+ |      phibin(GCOMDri self) -> double const &
+ |  
+ |  phimin(self)
+ |      phimin(GCOMDri self) -> double const &
+ |  
+ |  read(self, image)
+ |      read(GCOMDri self, GFitsImage const & image)
+ |  
+ |  save(self, filename, clobber=False)
+ |      save(GCOMDri self, GFilename const & filename, bool const & clobber=False)
+ |  
+ |  size(self)
+ |      size(GCOMDri self) -> int
+ |  
+ |  tof_correction(self, *args)
+ |      tof_correction(GCOMDri self) -> double const
+ |      tof_correction(GCOMDri self, double const & tofcor)
+ |  
+ |  write(self, *args)
+ |      write(GCOMDri self, GFits & fits, std::string const & extname="")
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMDri(...)
+ |      delete_GCOMDri(GCOMDri self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
+=== GCOMDris ===
+Help on class GCOMDris in module gammalib.com:
+
+class GCOMDris(gammalib.base.GContainer)
+ |  GCOMDris(*args)
+ |  
+ |  Proxy of C++ GCOMDris class.
+ |  
+ |  Method resolution order:
+ |      GCOMDris
+ |      gammalib.base.GContainer
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __getitem__(self, *args)
+ |      __getitem__(GCOMDris self, int const & index) -> GCOMDri
+ |      __getitem__(GCOMDris self, PyObject * param) -> GCOMDris
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMDris self) -> GCOMDris
+ |      __init__(GCOMDris self, GCOMDris dris) -> GCOMDris
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setitem__(self, index, val)
+ |      __setitem__(GCOMDris self, int const & index, GCOMDri val)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  append(self, dri)
+ |      append(GCOMDris self, GCOMDri dri) -> GCOMDri
+ |  
+ |  classname(self)
+ |      classname(GCOMDris self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMDris self)
+ |  
+ |  clone(self)
+ |      clone(GCOMDris self) -> GCOMDris
+ |  
+ |  compute_drws(self, *args)
+ |      compute_drws(GCOMDris self, GCOMObservation obs, GCOMSelection select=GCOMSelection(), double const & zetamin=5.0, double const & timebin=300.0, std::string const & method="vetorate")
+ |  
+ |  copy(self)
+ |      copy(GCOMDris self) -> GCOMDris
+ |  
+ |  extend(self, dris)
+ |      extend(GCOMDris self, GCOMDris dris)
+ |  
+ |  insert(self, index, dri)
+ |      insert(GCOMDris self, int const & index, GCOMDri dri) -> GCOMDri
+ |  
+ |  is_empty(self)
+ |      is_empty(GCOMDris self) -> bool
+ |  
+ |  remove(self, index)
+ |      remove(GCOMDris self, int const & index)
+ |  
+ |  reserve(self, num)
+ |      reserve(GCOMDris self, int const & num)
+ |  
+ |  size(self)
+ |      size(GCOMDris self) -> int
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMDris(...)
+ |      delete_GCOMDris(GCOMDris self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GContainer:
+ |  
+ |  __len__(self)
+ |      __len__(GContainer self) -> int
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
+=== GCOMEventAtom ===
+Help on class GCOMEventAtom in module gammalib.com:
+
+class GCOMEventAtom(gammalib.obs.GEventAtom)
+ |  GCOMEventAtom(*args)
+ |  
+ |  Proxy of C++ GCOMEventAtom class.
+ |  
+ |  Method resolution order:
+ |      GCOMEventAtom
+ |      gammalib.obs.GEventAtom
+ |      gammalib.obs.GEvent
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMEventAtom self) -> GCOMEventAtom
+ |      __init__(GCOMEventAtom self, GCOMEventAtom atom) -> GCOMEventAtom
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  classname(self)
+ |      classname(GCOMEventAtom self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMEventAtom self)
+ |  
+ |  clone(self)
+ |      clone(GCOMEventAtom self) -> GCOMEventAtom
+ |  
+ |  copy(self)
+ |      copy(GCOMEventAtom self) -> GCOMEventAtom
+ |  
+ |  dir(self, *args)
+ |      dir(GCOMEventAtom self) -> GCOMInstDir
+ |      dir(GCOMEventAtom self, GCOMInstDir dir)
+ |  
+ |  e1(self, *args)
+ |      e1(GCOMEventAtom self, float const & e1)
+ |      e1(GCOMEventAtom self) -> float const &
+ |  
+ |  e2(self, *args)
+ |      e2(GCOMEventAtom self, float const & e2)
+ |      e2(GCOMEventAtom self) -> float const &
+ |  
+ |  eha(self, *args)
+ |      eha(GCOMEventAtom self, float const & eha)
+ |      eha(GCOMEventAtom self) -> float const &
+ |  
+ |  energy(self, *args)
+ |      energy(GCOMEventAtom self) -> GEnergy const
+ |      energy(GCOMEventAtom self, GEnergy const & energy)
+ |  
+ |  modcom(self, *args)
+ |      modcom(GCOMEventAtom self, int const & modcom)
+ |      modcom(GCOMEventAtom self) -> int const &
+ |  
+ |  phi(self, *args)
+ |      phi(GCOMEventAtom self, float const & phi)
+ |      phi(GCOMEventAtom self) -> float const &
+ |  
+ |  phibar(self, *args)
+ |      phibar(GCOMEventAtom self, float const & phibar)
+ |      phibar(GCOMEventAtom self) -> float const &
+ |  
+ |  psd(self, *args)
+ |      psd(GCOMEventAtom self, float const & psd)
+ |      psd(GCOMEventAtom self) -> float const &
+ |  
+ |  reflag(self, *args)
+ |      reflag(GCOMEventAtom self, int const & reflag)
+ |      reflag(GCOMEventAtom self) -> int const &
+ |  
+ |  theta(self, *args)
+ |      theta(GCOMEventAtom self, float const & theta)
+ |      theta(GCOMEventAtom self) -> float const &
+ |  
+ |  time(self, *args)
+ |      time(GCOMEventAtom self) -> GTime const
+ |      time(GCOMEventAtom self, GTime const & time)
+ |      time(GCOMEventAtom self, int const & tjd, int const & tics)
+ |  
+ |  tof(self, *args)
+ |      tof(GCOMEventAtom self, float const & tof)
+ |      tof(GCOMEventAtom self) -> float const &
+ |  
+ |  veto(self, *args)
+ |      veto(GCOMEventAtom self, int const & veto)
+ |      veto(GCOMEventAtom self) -> int const &
+ |  
+ |  x_d2(self, *args)
+ |      x_d2(GCOMEventAtom self, float const & x_d2)
+ |      x_d2(GCOMEventAtom self) -> float const &
+ |  
+ |  y_d2(self, *args)
+ |      y_d2(GCOMEventAtom self, float const & y_d2)
+ |      y_d2(GCOMEventAtom self) -> float const &
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMEventAtom(...)
+ |      delete_GCOMEventAtom(GCOMEventAtom self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.obs.GEventAtom:
+ |  
+ |  counts(self)
+ |      counts(GEventAtom self) -> double
+ |  
+ |  error(self)
+ |      error(GEventAtom self) -> double
+ |  
+ |  is_atom(self)
+ |      is_atom(GEventAtom self) -> bool
+ |  
+ |  is_bin(self)
+ |      is_bin(GEventAtom self) -> bool
+ |  
+ |  size(self)
+ |      size(GEventAtom self) -> double
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
+=== GCOMEventBin ===
+Help on class GCOMEventBin in module gammalib.com:
+
+class GCOMEventBin(gammalib.obs.GEventBin)
+ |  GCOMEventBin(*args)
+ |  
+ |  Proxy of C++ GCOMEventBin class.
+ |  
+ |  Method resolution order:
+ |      GCOMEventBin
+ |      gammalib.obs.GEventBin
+ |      gammalib.obs.GEvent
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMEventBin self) -> GCOMEventBin
+ |      __init__(GCOMEventBin self, GCOMEventBin bin) -> GCOMEventBin
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  classname(self)
+ |      classname(GCOMEventBin self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMEventBin self)
+ |  
+ |  clone(self)
+ |      clone(GCOMEventBin self) -> GCOMEventBin
+ |  
+ |  copy(self)
+ |      copy(GCOMEventBin self) -> GCOMEventBin
+ |  
+ |  counts(self, *args)
+ |      counts(GCOMEventBin self) -> double
+ |      counts(GCOMEventBin self, double const & counts)
+ |  
+ |  dir(self, *args)
+ |      dir(GCOMEventBin self) -> GCOMInstDir
+ |      dir(GCOMEventBin self, GCOMInstDir dir)
+ |  
+ |  energy(self, *args)
+ |      energy(GCOMEventBin self) -> GEnergy const
+ |      energy(GCOMEventBin self, GEnergy const & energy)
+ |  
+ |  error(self)
+ |      error(GCOMEventBin self) -> double
+ |  
+ |  ewidth(self, *args)
+ |      ewidth(GCOMEventBin self) -> GEnergy const
+ |      ewidth(GCOMEventBin self, GEnergy const & ewidth)
+ |  
+ |  index(self, *args)
+ |      index(GCOMEventBin self) -> int const
+ |      index(GCOMEventBin self, int const & index)
+ |  
+ |  ontime(self, *args)
+ |      ontime(GCOMEventBin self) -> double const
+ |      ontime(GCOMEventBin self, double const & ontime)
+ |  
+ |  size(self)
+ |      size(GCOMEventBin self) -> double
+ |  
+ |  solidangle(self, *args)
+ |      solidangle(GCOMEventBin self) -> double const
+ |      solidangle(GCOMEventBin self, double const & solidangle)
+ |  
+ |  time(self, *args)
+ |      time(GCOMEventBin self) -> GTime const
+ |      time(GCOMEventBin self, GTime const & time)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMEventBin(...)
+ |      delete_GCOMEventBin(GCOMEventBin self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.obs.GEventBin:
+ |  
+ |  is_atom(self)
+ |      is_atom(GEventBin self) -> bool
+ |  
+ |  is_bin(self)
+ |      is_bin(GEventBin self) -> bool
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
+=== GCOMEventCube ===
+Help on class GCOMEventCube in module gammalib.com:
+
+class GCOMEventCube(gammalib.obs.GEventCube)
+ |  GCOMEventCube(*args)
+ |  
+ |  Proxy of C++ GCOMEventCube class.
+ |  
+ |  Method resolution order:
+ |      GCOMEventCube
+ |      gammalib.obs.GEventCube
+ |      gammalib.obs.GEvents
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __getitem__(self, index)
+ |      __getitem__(GCOMEventCube self, int index) -> GCOMEventBin
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMEventCube self) -> GCOMEventCube
+ |      __init__(GCOMEventCube self, GFilename const & filename) -> GCOMEventCube
+ |      __init__(GCOMEventCube self, GCOMDri dre) -> GCOMEventCube
+ |      __init__(GCOMEventCube self, GCOMEventCube cube) -> GCOMEventCube
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setitem__(self, index, val)
+ |      __setitem__(GCOMEventCube self, int index, GCOMEventBin val)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  classname(self)
+ |      classname(GCOMEventCube self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMEventCube self)
+ |  
+ |  clone(self)
+ |      clone(GCOMEventCube self) -> GCOMEventCube
+ |  
+ |  copy(self)
+ |      copy(GCOMEventCube self) -> GCOMEventCube
+ |  
+ |  dim(self)
+ |      dim(GCOMEventCube self) -> int
+ |  
+ |  dre(self)
+ |      dre(GCOMEventCube self) -> GCOMDri
+ |  
+ |  load(self, filename)
+ |      load(GCOMEventCube self, GFilename const & filename)
+ |  
+ |  naxis(self, axis)
+ |      naxis(GCOMEventCube self, int const & axis) -> int
+ |  
+ |  number(self)
+ |      number(GCOMEventCube self) -> int
+ |  
+ |  read(self, file)
+ |      read(GCOMEventCube self, GFits const & file)
+ |  
+ |  save(self, filename, clobber=False)
+ |      save(GCOMEventCube self, GFilename const & filename, bool const & clobber=False)
+ |  
+ |  size(self)
+ |      size(GCOMEventCube self) -> int
+ |  
+ |  write(self, file)
+ |      write(GCOMEventCube self, GFits & file)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMEventCube(...)
+ |      delete_GCOMEventCube(GCOMEventCube self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.obs.GEvents:
+ |  
+ |  __len__(self)
+ |      __len__(GEvents self) -> int
+ |  
+ |  ebounds(self, *args)
+ |      ebounds(GEvents self, GEbounds ebounds)
+ |      ebounds(GEvents self) -> GEbounds
+ |  
+ |  emax(self)
+ |      emax(GEvents self) -> GEnergy
+ |  
+ |  emin(self)
+ |      emin(GEvents self) -> GEnergy
+ |  
+ |  gti(self, *args)
+ |      gti(GEvents self, GGti gti)
+ |      gti(GEvents self) -> GGti
+ |  
+ |  tstart(self)
+ |      tstart(GEvents self) -> GTime
+ |  
+ |  tstop(self)
+ |      tstop(GEvents self) -> GTime
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
+=== GCOMEventList ===
+Help on class GCOMEventList in module gammalib.com:
+
+class GCOMEventList(gammalib.obs.GEventList)
+ |  GCOMEventList(*args)
+ |  
+ |  Proxy of C++ GCOMEventList class.
+ |  
+ |  Method resolution order:
+ |      GCOMEventList
+ |      gammalib.obs.GEventList
+ |      gammalib.obs.GEvents
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __getitem__(self, *args)
+ |      __getitem__(GCOMEventList self, int const & index) -> GCOMEventAtom
+ |      __getitem__(GCOMEventList self, PyObject * param) -> GCOMEventList
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMEventList self) -> GCOMEventList
+ |      __init__(GCOMEventList self, GFilename const & filename) -> GCOMEventList
+ |      __init__(GCOMEventList self, GCOMEventList list) -> GCOMEventList
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setitem__(self, index, event)
+ |      __setitem__(GCOMEventList self, int const & index, GCOMEventAtom event)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  append(self, event)
+ |      append(GCOMEventList self, GCOMEventAtom event)
+ |  
+ |  classname(self)
+ |      classname(GCOMEventList self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMEventList self)
+ |  
+ |  clone(self)
+ |      clone(GCOMEventList self) -> GCOMEventList
+ |  
+ |  copy(self)
+ |      copy(GCOMEventList self) -> GCOMEventList
+ |  
+ |  load(self, filename)
+ |      load(GCOMEventList self, GFilename const & filename)
+ |  
+ |  number(self)
+ |      number(GCOMEventList self) -> int
+ |  
+ |  read(self, file)
+ |      read(GCOMEventList self, GFits const & file)
+ |  
+ |  remove(self, index, number=1)
+ |      remove(GCOMEventList self, int const & index, int const & number=1)
+ |  
+ |  reserve(self, number)
+ |      reserve(GCOMEventList self, int const & number)
+ |  
+ |  roi(self, *args)
+ |      roi(GCOMEventList self, GRoi roi)
+ |      roi(GCOMEventList self) -> GCOMRoi
+ |  
+ |  save(self, filename, clobber=False)
+ |      save(GCOMEventList self, GFilename const & filename, bool const & clobber=False)
+ |  
+ |  size(self)
+ |      size(GCOMEventList self) -> int
+ |  
+ |  write(self, file)
+ |      write(GCOMEventList self, GFits & file)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMEventList(...)
+ |      delete_GCOMEventList(GCOMEventList self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.obs.GEvents:
+ |  
+ |  __len__(self)
+ |      __len__(GEvents self) -> int
+ |  
+ |  ebounds(self, *args)
+ |      ebounds(GEvents self, GEbounds ebounds)
+ |      ebounds(GEvents self) -> GEbounds
+ |  
+ |  emax(self)
+ |      emax(GEvents self) -> GEnergy
+ |  
+ |  emin(self)
+ |      emin(GEvents self) -> GEnergy
+ |  
+ |  gti(self, *args)
+ |      gti(GEvents self, GGti gti)
+ |      gti(GEvents self) -> GGti
+ |  
+ |  tstart(self)
+ |      tstart(GEvents self) -> GTime
+ |  
+ |  tstop(self)
+ |      tstop(GEvents self) -> GTime
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
+=== GCOMHkd ===
+Help on class GCOMHkd in module gammalib.com:
+
+class GCOMHkd(gammalib.base.GContainer)
+ |  GCOMHkd(*args)
+ |  
+ |  Proxy of C++ GCOMHkd class.
+ |  
+ |  Method resolution order:
+ |      GCOMHkd
+ |      gammalib.base.GContainer
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMHkd self) -> GCOMHkd
+ |      __init__(GCOMHkd self, std::string const & name) -> GCOMHkd
+ |      __init__(GCOMHkd self, GCOMHkd hkd) -> GCOMHkd
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  append(self, time, value)
+ |      append(GCOMHkd self, GTime const & time, double const & value)
+ |  
+ |  classname(self)
+ |      classname(GCOMHkd self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMHkd self)
+ |  
+ |  clone(self)
+ |      clone(GCOMHkd self) -> GCOMHkd
+ |  
+ |  copy(self)
+ |      copy(GCOMHkd self) -> GCOMHkd
+ |  
+ |  extend(self, hkd)
+ |      extend(GCOMHkd self, GCOMHkd hkd)
+ |  
+ |  is_empty(self)
+ |      is_empty(GCOMHkd self) -> bool
+ |  
+ |  name(self, *args)
+ |      name(GCOMHkd self) -> std::string const
+ |      name(GCOMHkd self, std::string const & name)
+ |  
+ |  remove(self, index)
+ |      remove(GCOMHkd self, int const & index)
+ |  
+ |  reserve(self, num)
+ |      reserve(GCOMHkd self, int const & num)
+ |  
+ |  size(self)
+ |      size(GCOMHkd self) -> int
+ |  
+ |  time(self, *args)
+ |      time(GCOMHkd self, int const & index) -> GTime const
+ |      time(GCOMHkd self, int const & index, GTime const & time)
+ |  
+ |  value(self, *args)
+ |      value(GCOMHkd self, int const & index) -> double const
+ |      value(GCOMHkd self, int const & index, double const & value)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMHkd(...)
+ |      delete_GCOMHkd(GCOMHkd self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GContainer:
+ |  
+ |  __len__(self)
+ |      __len__(GContainer self) -> int
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
+=== GCOMHkds ===
+Help on class GCOMHkds in module gammalib.com:
+
+class GCOMHkds(gammalib.base.GContainer)
+ |  GCOMHkds(*args)
+ |  
+ |  Proxy of C++ GCOMHkds class.
+ |  
+ |  Method resolution order:
+ |      GCOMHkds
+ |      gammalib.base.GContainer
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __getitem__(self, *args)
+ |      __getitem__(GCOMHkds self, int const & index) -> GCOMHkd
+ |      __getitem__(GCOMHkds self, std::string const & name) -> GCOMHkd
+ |      __getitem__(GCOMHkds self, PyObject * param) -> GCOMHkds
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMHkds self) -> GCOMHkds
+ |      __init__(GCOMHkds self, GFilename const & filename) -> GCOMHkds
+ |      __init__(GCOMHkds self, GCOMHkds hkds) -> GCOMHkds
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setitem__(self, *args)
+ |      __setitem__(GCOMHkds self, int const & index, GCOMHkd val)
+ |      __setitem__(GCOMHkds self, std::string const & name, GCOMHkd val)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  append(self, hkd)
+ |      append(GCOMHkds self, GCOMHkd hkd) -> GCOMHkd
+ |  
+ |  classname(self)
+ |      classname(GCOMHkds self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMHkds self)
+ |  
+ |  clone(self)
+ |      clone(GCOMHkds self) -> GCOMHkds
+ |  
+ |  contains(self, name)
+ |      contains(GCOMHkds self, std::string const & name) -> bool
+ |  
+ |  copy(self)
+ |      copy(GCOMHkds self) -> GCOMHkds
+ |  
+ |  extend(self, hkds)
+ |      extend(GCOMHkds self, GCOMHkds hkds)
+ |  
+ |  insert(self, index, hkd)
+ |      insert(GCOMHkds self, int const & index, GCOMHkd hkd) -> GCOMHkd
+ |  
+ |  is_empty(self)
+ |      is_empty(GCOMHkds self) -> bool
+ |  
+ |  load(self, filename)
+ |      load(GCOMHkds self, GFilename const & filename)
+ |  
+ |  read(self, table)
+ |      read(GCOMHkds self, GFitsTable const & table)
+ |  
+ |  remove(self, index)
+ |      remove(GCOMHkds self, int const & index)
+ |  
+ |  reserve(self, num)
+ |      reserve(GCOMHkds self, int const & num)
+ |  
+ |  set(self, *args)
+ |      set(GCOMHkds self, int const & index, GCOMHkd hkd) -> GCOMHkd
+ |      set(GCOMHkds self, std::string const & name, GCOMHkd hkd) -> GCOMHkd
+ |  
+ |  size(self)
+ |      size(GCOMHkds self) -> int
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMHkds(...)
+ |      delete_GCOMHkds(GCOMHkds self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GContainer:
+ |  
+ |  __len__(self)
+ |      __len__(GContainer self) -> int
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
+=== GCOMIaq ===
+Help on class GCOMIaq in module gammalib.com:
+
+class GCOMIaq(gammalib.base.GBase)
+ |  GCOMIaq(*args)
+ |  
+ |  Proxy of C++ GCOMIaq class.
+ |  
+ |  Method resolution order:
+ |      GCOMIaq
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMIaq self) -> GCOMIaq
+ |      __init__(GCOMIaq self, GCOMIaq iaq) -> GCOMIaq
+ |      __init__(GCOMIaq self, double const & phigeo_max, double const & phigeo_bin_size, double const & phibar_max, double const & phibar_bin_size) -> GCOMIaq
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  classname(self)
+ |      classname(GCOMIaq self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMIaq self)
+ |  
+ |  clone(self)
+ |      clone(GCOMIaq self) -> GCOMIaq
+ |  
+ |  copy(self)
+ |      copy(GCOMIaq self) -> GCOMIaq
+ |  
+ |  save(self, filename, clobber=False)
+ |      save(GCOMIaq self, GFilename const & filename, bool const & clobber=False)
+ |  
+ |  set(self, *args)
+ |      set(GCOMIaq self, GEnergy const & energy, GEbounds const & ebounds)
+ |      set(GCOMIaq self, GModelSpectral const & spectrum, GEbounds const & ebounds)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMIaq(...)
+ |      delete_GCOMIaq(GCOMIaq self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
+=== GCOMInstChars ===
+Help on class GCOMInstChars in module gammalib.com:
+
+class GCOMInstChars(gammalib.base.GBase)
+ |  GCOMInstChars(*args)
+ |  
+ |  Proxy of C++ GCOMInstChars class.
+ |  
+ |  Method resolution order:
+ |      GCOMInstChars
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMInstChars self) -> GCOMInstChars
+ |      __init__(GCOMInstChars self, GCOMInstChars ict) -> GCOMInstChars
+ |      __init__(GCOMInstChars self, GCaldb const & caldb, std::string const & ictname) -> GCOMInstChars
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  caldb(self, *args)
+ |      caldb(GCOMInstChars self, GCaldb const & caldb)
+ |      caldb(GCOMInstChars self) -> GCaldb const &
+ |  
+ |  classname(self)
+ |      classname(GCOMInstChars self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMInstChars self)
+ |  
+ |  clone(self)
+ |      clone(GCOMInstChars self) -> GCOMInstChars
+ |  
+ |  copy(self)
+ |      copy(GCOMInstChars self) -> GCOMInstChars
+ |  
+ |  load(self, ictname)
+ |      load(GCOMInstChars self, std::string const & ictname)
+ |  
+ |  multi_scatter(self, energy, phigeo)
+ |      multi_scatter(GCOMInstChars self, double const & energy, double const & phigeo) -> double
+ |  
+ |  prob_D1inter(self, energy)
+ |      prob_D1inter(GCOMInstChars self, double const & energy) -> double
+ |  
+ |  prob_D2inter(self, energy, phigeo)
+ |      prob_D2inter(GCOMInstChars self, double const & energy, double const & phigeo) -> double
+ |  
+ |  prob_no_multihit(self, energy)
+ |      prob_no_multihit(GCOMInstChars self, double const & energy) -> double
+ |  
+ |  prob_no_selfveto(self, energy, zenith)
+ |      prob_no_selfveto(GCOMInstChars self, double const & energy, double const & zenith) -> double
+ |  
+ |  psd_correction(self, energy, phigeo)
+ |      psd_correction(GCOMInstChars self, double const & energy, double const & phigeo) -> double
+ |  
+ |  trans_D1(self, energy)
+ |      trans_D1(GCOMInstChars self, double const & energy) -> double
+ |  
+ |  trans_D2(self, energy, phigeo)
+ |      trans_D2(GCOMInstChars self, double const & energy, double const & phigeo) -> double
+ |  
+ |  trans_V1(self, energy)
+ |      trans_V1(GCOMInstChars self, double const & energy) -> double
+ |  
+ |  trans_V23(self, energy, phigeo)
+ |      trans_V23(GCOMInstChars self, double const & energy, double const & phigeo) -> double
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMInstChars(...)
+ |      delete_GCOMInstChars(GCOMInstChars self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
+=== GCOMInstDir ===
+Help on class GCOMInstDir in module gammalib.com:
+
+class GCOMInstDir(gammalib.obs.GInstDir)
+ |  GCOMInstDir(*args)
+ |  
+ |  Proxy of C++ GCOMInstDir class.
+ |  
+ |  Method resolution order:
+ |      GCOMInstDir
+ |      gammalib.obs.GInstDir
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMInstDir self) -> GCOMInstDir
+ |      __init__(GCOMInstDir self, GCOMInstDir dir) -> GCOMInstDir
+ |      __init__(GCOMInstDir self, GSkyDir const & dir, double const & phibar) -> GCOMInstDir
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  classname(self)
+ |      classname(GCOMInstDir self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMInstDir self)
+ |  
+ |  clone(self)
+ |      clone(GCOMInstDir self) -> GCOMInstDir
+ |  
+ |  copy(self)
+ |      copy(GCOMInstDir self) -> GCOMInstDir
+ |  
+ |  dir(self, *args)
+ |      dir(GCOMInstDir self, GSkyDir const & dir)
+ |      dir(GCOMInstDir self) -> GSkyDir const &
+ |  
+ |  hash(self)
+ |      hash(GCOMInstDir self) -> u_int64_t
+ |  
+ |  phibar(self, *args)
+ |      phibar(GCOMInstDir self, double const & phibar)
+ |      phibar(GCOMInstDir self) -> double const &
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMInstDir(...)
+ |      delete_GCOMInstDir(GCOMInstDir self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
+=== GCOMModelDRBPhibarBins ===
+Help on class GCOMModelDRBPhibarBins in module gammalib.com:
+
+class GCOMModelDRBPhibarBins(gammalib.model.GModelData)
+ |  GCOMModelDRBPhibarBins(*args)
+ |  
+ |  Proxy of C++ GCOMModelDRBPhibarBins class.
+ |  
+ |  Method resolution order:
+ |      GCOMModelDRBPhibarBins
+ |      gammalib.model.GModelData
+ |      gammalib.model.GModel
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMModelDRBPhibarBins self) -> GCOMModelDRBPhibarBins
+ |      __init__(GCOMModelDRBPhibarBins self, GXmlElement const & xml) -> GCOMModelDRBPhibarBins
+ |      __init__(GCOMModelDRBPhibarBins self, GCOMModelDRBPhibarBins model) -> GCOMModelDRBPhibarBins
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  classname(self)
+ |      classname(GCOMModelDRBPhibarBins self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMModelDRBPhibarBins self)
+ |  
+ |  clone(self)
+ |      clone(GCOMModelDRBPhibarBins self) -> GCOMModelDRBPhibarBins
+ |  
+ |  copy(self)
+ |      copy(GCOMModelDRBPhibarBins self) -> GCOMModelDRBPhibarBins
+ |  
+ |  eval(self, event, obs, gradients=False)
+ |      eval(GCOMModelDRBPhibarBins self, GEvent event, GObservation obs, bool const & gradients=False) -> double
+ |  
+ |  is_constant(self)
+ |      is_constant(GCOMModelDRBPhibarBins self) -> bool
+ |  
+ |  mc(self, obs, ran)
+ |      mc(GCOMModelDRBPhibarBins self, GObservation obs, GRan & ran) -> GCOMEventCube
+ |  
+ |  npred(self, obsEng, obsTime, obs)
+ |      npred(GCOMModelDRBPhibarBins self, GEnergy const & obsEng, GTime const & obsTime, GObservation obs) -> double
+ |  
+ |  read(self, xml)
+ |      read(GCOMModelDRBPhibarBins self, GXmlElement const & xml)
+ |  
+ |  type(self)
+ |      type(GCOMModelDRBPhibarBins self) -> std::string
+ |  
+ |  write(self, xml)
+ |      write(GCOMModelDRBPhibarBins self, GXmlElement & xml)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMModelDRBPhibarBins(...)
+ |      delete_GCOMModelDRBPhibarBins(GCOMModelDRBPhibarBins self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.model.GModel:
+ |  
+ |  __getitem__(self, *args)
+ |      __getitem__(GModel self, int const & index) -> GModelPar
+ |      __getitem__(GModel self, std::string const & name) -> GModelPar
+ |  
+ |  __setitem__(self, *args)
+ |      __setitem__(GModel self, int const & index, GModelPar val)
+ |      __setitem__(GModel self, std::string const & name, GModelPar val)
+ |  
+ |  associations(self, *args)
+ |      associations(GModel self) -> GModelAssociations
+ |      associations(GModel self, GModelAssociations associations)
+ |  
+ |  eval_indices(self)
+ |      eval_indices(GModel self) -> std::vector< int,std::allocator< int > > const &
+ |  
+ |  has_eval_indices(self)
+ |      has_eval_indices(GModel self) -> bool const &
+ |  
+ |  has_par(self, name)
+ |      has_par(GModel self, std::string const & name) -> bool
+ |  
+ |  has_scales(self)
+ |      has_scales(GModel self) -> bool
+ |  
+ |  has_ts(self)
+ |      has_ts(GModel self) -> bool const &
+ |  
+ |  ids(self, *args)
+ |      ids(GModel self) -> std::string
+ |      ids(GModel self, std::string const & ids)
+ |  
+ |  instruments(self, *args)
+ |      instruments(GModel self) -> std::string
+ |      instruments(GModel self, std::string const & instruments)
+ |  
+ |  is_valid(self, instruments, ids)
+ |      is_valid(GModel self, std::string const & instruments, std::string const & ids) -> bool
+ |  
+ |  name(self, *args)
+ |      name(GModel self) -> std::string const
+ |      name(GModel self, std::string const & name)
+ |  
+ |  scale(self, *args)
+ |      scale(GModel self, int const & index) -> GModelPar
+ |      scale(GModel self, std::string const & instrument) -> GModelPar
+ |      scale(GModel self, GModelPar par)
+ |  
+ |  scales(self)
+ |      scales(GModel self) -> int
+ |  
+ |  size(self)
+ |      size(GModel self) -> int
+ |  
+ |  ts(self, *args)
+ |      ts(GModel self) -> double const
+ |      ts(GModel self, double const & ts)
+ |  
+ |  tscalc(self, *args)
+ |      tscalc(GModel self) -> bool const
+ |      tscalc(GModel self, bool const & tscalc)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
+=== GCOMModelDRBPhibarNodes ===
+Help on class GCOMModelDRBPhibarNodes in module gammalib.com:
+
+class GCOMModelDRBPhibarNodes(gammalib.model.GModelData)
+ |  GCOMModelDRBPhibarNodes(*args)
+ |  
+ |  Proxy of C++ GCOMModelDRBPhibarNodes class.
+ |  
+ |  Method resolution order:
+ |      GCOMModelDRBPhibarNodes
+ |      gammalib.model.GModelData
+ |      gammalib.model.GModel
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMModelDRBPhibarNodes self) -> GCOMModelDRBPhibarNodes
+ |      __init__(GCOMModelDRBPhibarNodes self, GXmlElement const & xml) -> GCOMModelDRBPhibarNodes
+ |      __init__(GCOMModelDRBPhibarNodes self, GCOMModelDRBPhibarNodes model) -> GCOMModelDRBPhibarNodes
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  classname(self)
+ |      classname(GCOMModelDRBPhibarNodes self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMModelDRBPhibarNodes self)
+ |  
+ |  clone(self)
+ |      clone(GCOMModelDRBPhibarNodes self) -> GCOMModelDRBPhibarNodes
+ |  
+ |  copy(self)
+ |      copy(GCOMModelDRBPhibarNodes self) -> GCOMModelDRBPhibarNodes
+ |  
+ |  eval(self, event, obs, gradients=False)
+ |      eval(GCOMModelDRBPhibarNodes self, GEvent event, GObservation obs, bool const & gradients=False) -> double
+ |  
+ |  is_constant(self)
+ |      is_constant(GCOMModelDRBPhibarNodes self) -> bool
+ |  
+ |  mc(self, obs, ran)
+ |      mc(GCOMModelDRBPhibarNodes self, GObservation obs, GRan & ran) -> GCOMEventCube
+ |  
+ |  npred(self, obsEng, obsTime, obs)
+ |      npred(GCOMModelDRBPhibarNodes self, GEnergy const & obsEng, GTime const & obsTime, GObservation obs) -> double
+ |  
+ |  read(self, xml)
+ |      read(GCOMModelDRBPhibarNodes self, GXmlElement const & xml)
+ |  
+ |  type(self)
+ |      type(GCOMModelDRBPhibarNodes self) -> std::string
+ |  
+ |  write(self, xml)
+ |      write(GCOMModelDRBPhibarNodes self, GXmlElement & xml)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMModelDRBPhibarNodes(...)
+ |      delete_GCOMModelDRBPhibarNodes(GCOMModelDRBPhibarNodes self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.model.GModel:
+ |  
+ |  __getitem__(self, *args)
+ |      __getitem__(GModel self, int const & index) -> GModelPar
+ |      __getitem__(GModel self, std::string const & name) -> GModelPar
+ |  
+ |  __setitem__(self, *args)
+ |      __setitem__(GModel self, int const & index, GModelPar val)
+ |      __setitem__(GModel self, std::string const & name, GModelPar val)
+ |  
+ |  associations(self, *args)
+ |      associations(GModel self) -> GModelAssociations
+ |      associations(GModel self, GModelAssociations associations)
+ |  
+ |  eval_indices(self)
+ |      eval_indices(GModel self) -> std::vector< int,std::allocator< int > > const &
+ |  
+ |  has_eval_indices(self)
+ |      has_eval_indices(GModel self) -> bool const &
+ |  
+ |  has_par(self, name)
+ |      has_par(GModel self, std::string const & name) -> bool
+ |  
+ |  has_scales(self)
+ |      has_scales(GModel self) -> bool
+ |  
+ |  has_ts(self)
+ |      has_ts(GModel self) -> bool const &
+ |  
+ |  ids(self, *args)
+ |      ids(GModel self) -> std::string
+ |      ids(GModel self, std::string const & ids)
+ |  
+ |  instruments(self, *args)
+ |      instruments(GModel self) -> std::string
+ |      instruments(GModel self, std::string const & instruments)
+ |  
+ |  is_valid(self, instruments, ids)
+ |      is_valid(GModel self, std::string const & instruments, std::string const & ids) -> bool
+ |  
+ |  name(self, *args)
+ |      name(GModel self) -> std::string const
+ |      name(GModel self, std::string const & name)
+ |  
+ |  scale(self, *args)
+ |      scale(GModel self, int const & index) -> GModelPar
+ |      scale(GModel self, std::string const & instrument) -> GModelPar
+ |      scale(GModel self, GModelPar par)
+ |  
+ |  scales(self)
+ |      scales(GModel self) -> int
+ |  
+ |  size(self)
+ |      size(GModel self) -> int
+ |  
+ |  ts(self, *args)
+ |      ts(GModel self) -> double const
+ |      ts(GModel self, double const & ts)
+ |  
+ |  tscalc(self, *args)
+ |      tscalc(GModel self) -> bool const
+ |      tscalc(GModel self, bool const & tscalc)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
+=== GCOMModelDRM ===
+Help on class GCOMModelDRM in module gammalib.com:
+
+class GCOMModelDRM(gammalib.model.GModelData)
+ |  GCOMModelDRM(*args)
+ |  
+ |  Proxy of C++ GCOMModelDRM class.
+ |  
+ |  Method resolution order:
+ |      GCOMModelDRM
+ |      gammalib.model.GModelData
+ |      gammalib.model.GModel
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMModelDRM self) -> GCOMModelDRM
+ |      __init__(GCOMModelDRM self, GXmlElement const & xml) -> GCOMModelDRM
+ |      __init__(GCOMModelDRM self, GCOMModelDRM model) -> GCOMModelDRM
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  classname(self)
+ |      classname(GCOMModelDRM self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMModelDRM self)
+ |  
+ |  clone(self)
+ |      clone(GCOMModelDRM self) -> GCOMModelDRM
+ |  
+ |  copy(self)
+ |      copy(GCOMModelDRM self) -> GCOMModelDRM
+ |  
+ |  eval(self, event, obs, gradients=False)
+ |      eval(GCOMModelDRM self, GEvent event, GObservation obs, bool const & gradients=False) -> double
+ |  
+ |  is_constant(self)
+ |      is_constant(GCOMModelDRM self) -> bool
+ |  
+ |  mc(self, obs, ran)
+ |      mc(GCOMModelDRM self, GObservation obs, GRan & ran) -> GCOMEventCube
+ |  
+ |  npred(self, obsEng, obsTime, obs)
+ |      npred(GCOMModelDRM self, GEnergy const & obsEng, GTime const & obsTime, GObservation obs) -> double
+ |  
+ |  read(self, xml)
+ |      read(GCOMModelDRM self, GXmlElement const & xml)
+ |  
+ |  type(self)
+ |      type(GCOMModelDRM self) -> std::string
+ |  
+ |  write(self, xml)
+ |      write(GCOMModelDRM self, GXmlElement & xml)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMModelDRM(...)
+ |      delete_GCOMModelDRM(GCOMModelDRM self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.model.GModel:
+ |  
+ |  __getitem__(self, *args)
+ |      __getitem__(GModel self, int const & index) -> GModelPar
+ |      __getitem__(GModel self, std::string const & name) -> GModelPar
+ |  
+ |  __setitem__(self, *args)
+ |      __setitem__(GModel self, int const & index, GModelPar val)
+ |      __setitem__(GModel self, std::string const & name, GModelPar val)
+ |  
+ |  associations(self, *args)
+ |      associations(GModel self) -> GModelAssociations
+ |      associations(GModel self, GModelAssociations associations)
+ |  
+ |  eval_indices(self)
+ |      eval_indices(GModel self) -> std::vector< int,std::allocator< int > > const &
+ |  
+ |  has_eval_indices(self)
+ |      has_eval_indices(GModel self) -> bool const &
+ |  
+ |  has_par(self, name)
+ |      has_par(GModel self, std::string const & name) -> bool
+ |  
+ |  has_scales(self)
+ |      has_scales(GModel self) -> bool
+ |  
+ |  has_ts(self)
+ |      has_ts(GModel self) -> bool const &
+ |  
+ |  ids(self, *args)
+ |      ids(GModel self) -> std::string
+ |      ids(GModel self, std::string const & ids)
+ |  
+ |  instruments(self, *args)
+ |      instruments(GModel self) -> std::string
+ |      instruments(GModel self, std::string const & instruments)
+ |  
+ |  is_valid(self, instruments, ids)
+ |      is_valid(GModel self, std::string const & instruments, std::string const & ids) -> bool
+ |  
+ |  name(self, *args)
+ |      name(GModel self) -> std::string const
+ |      name(GModel self, std::string const & name)
+ |  
+ |  scale(self, *args)
+ |      scale(GModel self, int const & index) -> GModelPar
+ |      scale(GModel self, std::string const & instrument) -> GModelPar
+ |      scale(GModel self, GModelPar par)
+ |  
+ |  scales(self)
+ |      scales(GModel self) -> int
+ |  
+ |  size(self)
+ |      size(GModel self) -> int
+ |  
+ |  ts(self, *args)
+ |      ts(GModel self) -> double const
+ |      ts(GModel self, double const & ts)
+ |  
+ |  tscalc(self, *args)
+ |      tscalc(GModel self) -> bool const
+ |      tscalc(GModel self, bool const & tscalc)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
+=== GCOMOad ===
+Help on class GCOMOad in module gammalib.com:
+
+class GCOMOad(gammalib.base.GBase)
+ |  GCOMOad(*args)
+ |  
+ |  Proxy of C++ GCOMOad class.
+ |  
+ |  Method resolution order:
+ |      GCOMOad
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMOad self) -> GCOMOad
+ |      __init__(GCOMOad self, GCOMOad oad) -> GCOMOad
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  classname(self)
+ |      classname(GCOMOad self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMOad self)
+ |  
+ |  clone(self)
+ |      clone(GCOMOad self) -> GCOMOad
+ |  
+ |  copy(self)
+ |      copy(GCOMOad self) -> GCOMOad
+ |  
+ |  ehora(self, *args)
+ |      ehora(GCOMOad self) -> float const
+ |      ehora(GCOMOad self, float const & ehora)
+ |  
+ |  gcaz(self, *args)
+ |      gcaz(GCOMOad self) -> float const
+ |      gcaz(GCOMOad self, float const & gcaz)
+ |  
+ |  gcel(self, *args)
+ |      gcel(GCOMOad self) -> float const
+ |      gcel(GCOMOad self, float const & gcel)
+ |  
+ |  georad(self, *args)
+ |      georad(GCOMOad self) -> float const
+ |      georad(GCOMOad self, float const & georad)
+ |  
+ |  phi(self, sky)
+ |      phi(GCOMOad self, GSkyDir const & sky) -> double
+ |  
+ |  pos(self, *args)
+ |      pos(GCOMOad self) -> GVector const
+ |      pos(GCOMOad self, GVector const & pos)
+ |  
+ |  theta(self, sky)
+ |      theta(GCOMOad self, GSkyDir const & sky) -> double
+ |  
+ |  tics(self, *args)
+ |      tics(GCOMOad self) -> int const
+ |      tics(GCOMOad self, int const & tics)
+ |  
+ |  tjd(self, *args)
+ |      tjd(GCOMOad self) -> int const
+ |      tjd(GCOMOad self, int const & tjd)
+ |  
+ |  tstart(self, *args)
+ |      tstart(GCOMOad self) -> GTime const
+ |      tstart(GCOMOad self, GTime const & tstart)
+ |  
+ |  tstop(self, *args)
+ |      tstop(GCOMOad self) -> GTime const
+ |      tstop(GCOMOad self, GTime const & tstop)
+ |  
+ |  xaxis(self, *args)
+ |      xaxis(GCOMOad self) -> GSkyDir const
+ |      xaxis(GCOMOad self, GSkyDir const & xaxis)
+ |  
+ |  zaxis(self, *args)
+ |      zaxis(GCOMOad self) -> GSkyDir const
+ |      zaxis(GCOMOad self, GSkyDir const & zaxis)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMOad(...)
+ |      delete_GCOMOad(GCOMOad self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
+=== GCOMOads ===
+Help on class GCOMOads in module gammalib.com:
+
+class GCOMOads(gammalib.base.GContainer)
+ |  GCOMOads(*args)
+ |  
+ |  Proxy of C++ GCOMOads class.
+ |  
+ |  Method resolution order:
+ |      GCOMOads
+ |      gammalib.base.GContainer
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __getitem__(self, *args)
+ |      __getitem__(GCOMOads self, int const & index) -> GCOMOad
+ |      __getitem__(GCOMOads self, PyObject * param) -> GCOMOads
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMOads self) -> GCOMOads
+ |      __init__(GCOMOads self, GFilename const & filename) -> GCOMOads
+ |      __init__(GCOMOads self, GCOMOads oads) -> GCOMOads
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setitem__(self, index, val)
+ |      __setitem__(GCOMOads self, int const & index, GCOMOad val)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  append(self, oad)
+ |      append(GCOMOads self, GCOMOad oad) -> GCOMOad
+ |  
+ |  classname(self)
+ |      classname(GCOMOads self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMOads self)
+ |  
+ |  clone(self)
+ |      clone(GCOMOads self) -> GCOMOads
+ |  
+ |  copy(self)
+ |      copy(GCOMOads self) -> GCOMOads
+ |  
+ |  extend(self, oads)
+ |      extend(GCOMOads self, GCOMOads oads)
+ |  
+ |  insert(self, index, oad)
+ |      insert(GCOMOads self, int const & index, GCOMOad oad) -> GCOMOad
+ |  
+ |  is_empty(self)
+ |      is_empty(GCOMOads self) -> bool
+ |  
+ |  load(self, filename)
+ |      load(GCOMOads self, GFilename const & filename)
+ |  
+ |  read(self, table)
+ |      read(GCOMOads self, GFitsTable const & table)
+ |  
+ |  remove(self, index)
+ |      remove(GCOMOads self, int const & index)
+ |  
+ |  reserve(self, num)
+ |      reserve(GCOMOads self, int const & num)
+ |  
+ |  size(self)
+ |      size(GCOMOads self) -> int
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMOads(...)
+ |      delete_GCOMOads(GCOMOads self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GContainer:
+ |  
+ |  __len__(self)
+ |      __len__(GContainer self) -> int
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
+=== GCOMObservation ===
+Help on class GCOMObservation in module gammalib.com:
+
+class GCOMObservation(gammalib.obs.GObservation)
+ |  GCOMObservation(*args)
+ |  
+ |  Proxy of C++ GCOMObservation class.
+ |  
+ |  Method resolution order:
+ |      GCOMObservation
+ |      gammalib.obs.GObservation
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMObservation self) -> GCOMObservation
+ |      __init__(GCOMObservation self, GXmlElement const & xml) -> GCOMObservation
+ |      __init__(GCOMObservation self, GCOMDri dre, GCOMDri drb, GCOMDri drg, GCOMDri drx) -> GCOMObservation
+ |      __init__(GCOMObservation self, GCOMDri dre, GCOMDri drb, GCOMDri drw, GCOMDri drg, GCOMDri drx) -> GCOMObservation
+ |      __init__(GCOMObservation self, GFilename const & drename, GFilename const & drbname, GFilename const & drwname, GFilename const & drgname, GFilename const & drxname) -> GCOMObservation
+ |      __init__(GCOMObservation self, GFilename const & evpname, GFilename const & timname, std::vector< GFilename,std::allocator< GFilename > > const & oadnames, std::vector< GFilename,std::allocator< GFilename > > const & hkdnames=std::vector< GFilename >(), GFilename const & bvcname="") -> GCOMObservation
+ |      __init__(GCOMObservation self, GCOMObservation obs) -> GCOMObservation
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  bvcs(self, *args)
+ |      bvcs(GCOMObservation self) -> GCOMBvcs
+ |      bvcs(GCOMObservation self, GCOMBvcs bvcs)
+ |  
+ |  classname(self)
+ |      classname(GCOMObservation self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMObservation self)
+ |  
+ |  clone(self)
+ |      clone(GCOMObservation self) -> GCOMObservation
+ |  
+ |  compute_drb(self, method, drm, nrunav=3, navgr=3, nincl=15, nexcl=0)
+ |      compute_drb(GCOMObservation self, std::string const & method, GCOMDri drm, int const & nrunav=3, int const & navgr=3, int const & nincl=15, int const & nexcl=0)
+ |  
+ |  copy(self)
+ |      copy(GCOMObservation self) -> GCOMObservation
+ |  
+ |  deadc(self, *args)
+ |      deadc(GCOMObservation self, GTime const & time=GTime()) -> double
+ |      deadc(GCOMObservation self, double const & deadc)
+ |  
+ |  drb(self)
+ |      drb(GCOMObservation self) -> GCOMDri
+ |  
+ |  drbname(self, *args)
+ |      drbname(GCOMObservation self) -> GFilename const
+ |      drbname(GCOMObservation self, GFilename const & drbname)
+ |  
+ |  drename(self, *args)
+ |      drename(GCOMObservation self) -> GFilename const
+ |      drename(GCOMObservation self, GFilename const & drename)
+ |  
+ |  drg(self)
+ |      drg(GCOMObservation self) -> GCOMDri
+ |  
+ |  drgname(self, *args)
+ |      drgname(GCOMObservation self) -> GFilename const
+ |      drgname(GCOMObservation self, GFilename const & drgname)
+ |  
+ |  drm(self, models)
+ |      drm(GCOMObservation self, GModels const & models) -> GCOMDri
+ |  
+ |  drw(self)
+ |      drw(GCOMObservation self) -> GCOMDri
+ |  
+ |  drwname(self, *args)
+ |      drwname(GCOMObservation self) -> GFilename const
+ |      drwname(GCOMObservation self, GFilename const & drwname)
+ |  
+ |  drx(self)
+ |      drx(GCOMObservation self) -> GCOMDri
+ |  
+ |  drxname(self, *args)
+ |      drxname(GCOMObservation self) -> GFilename const
+ |      drxname(GCOMObservation self, GFilename const & drxname)
+ |  
+ |  ewidth(self, *args)
+ |      ewidth(GCOMObservation self, double const & ewidth)
+ |      ewidth(GCOMObservation self) -> double const &
+ |  
+ |  hkds(self, *args)
+ |      hkds(GCOMObservation self) -> GCOMHkds
+ |      hkds(GCOMObservation self, GCOMHkds hkds)
+ |  
+ |  instrument(self)
+ |      instrument(GCOMObservation self) -> std::string
+ |  
+ |  is_binned(self)
+ |      is_binned(GCOMObservation self) -> bool
+ |  
+ |  is_unbinned(self)
+ |      is_unbinned(GCOMObservation self) -> bool
+ |  
+ |  livetime(self, *args)
+ |      livetime(GCOMObservation self) -> double
+ |      livetime(GCOMObservation self, double const & livetime)
+ |  
+ |  load(self, *args)
+ |      load(GCOMObservation self, GFilename const & drename, GFilename const & drbname, GFilename const & drwname, GFilename const & drgname, GFilename const & drxname)
+ |      load(GCOMObservation self, GFilename const & evpname, GFilename const & timname, std::vector< GFilename,std::allocator< GFilename > > const & oadnames, std::vector< GFilename,std::allocator< GFilename > > const & hkdnames=std::vector< GFilename >(), GFilename const & bvcname="")
+ |  
+ |  npred(self, model)
+ |      npred(GCOMObservation self, GModel model) -> double
+ |  
+ |  oads(self, *args)
+ |      oads(GCOMObservation self) -> GCOMOads
+ |      oads(GCOMObservation self, GCOMOads oads)
+ |  
+ |  obs_id(self, *args)
+ |      obs_id(GCOMObservation self, double const & id)
+ |      obs_id(GCOMObservation self) -> double const &
+ |  
+ |  ontime(self, *args)
+ |      ontime(GCOMObservation self) -> double
+ |      ontime(GCOMObservation self, double const & ontime)
+ |  
+ |  phi_first(self, *args)
+ |      phi_first(GCOMObservation self) -> int const
+ |      phi_first(GCOMObservation self, int const & phi_first)
+ |  
+ |  phi_last(self, *args)
+ |      phi_last(GCOMObservation self) -> int const
+ |      phi_last(GCOMObservation self, int const & phi_last)
+ |  
+ |  read(self, xml)
+ |      read(GCOMObservation self, GXmlElement const & xml)
+ |  
+ |  response(self, *args)
+ |      response(GCOMObservation self, GResponse rsp)
+ |      response(GCOMObservation self) -> GCOMResponse
+ |      response(GCOMObservation self, GCaldb const & caldb, std::string const & rspname)
+ |      response(GCOMObservation self, GCOMResponse response)
+ |  
+ |  rspname(self, *args)
+ |      rspname(GCOMObservation self) -> GFilename const
+ |      rspname(GCOMObservation self, GFilename const & rspname)
+ |  
+ |  tim(self, *args)
+ |      tim(GCOMObservation self) -> GCOMTim
+ |      tim(GCOMObservation self, GCOMTim tim)
+ |  
+ |  write(self, xml)
+ |      write(GCOMObservation self, GXmlElement & xml)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMObservation(...)
+ |      delete_GCOMObservation(GCOMObservation self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.obs.GObservation:
+ |  
+ |  computed_gradient(self, model, par)
+ |      computed_gradient(GObservation self, GModel const & model, GModelPar const & par)
+ |  
+ |  events(self, *args)
+ |      events(GObservation self) -> GEvents
+ |      events(GObservation self, GEvents events)
+ |  
+ |  has_events(self)
+ |      has_events(GObservation self) -> bool
+ |  
+ |  has_gradient(self, model, par)
+ |      has_gradient(GObservation self, GModel const & model, GModelPar const & par) -> bool
+ |  
+ |  id(self, *args)
+ |      id(GObservation self, std::string const & id)
+ |      id(GObservation self) -> std::string const &
+ |  
+ |  likelihood(self, models, gradients, curvature, npred)
+ |      likelihood(GObservation self, GModels const & models, GVector * gradients, GMatrixSparse * curvature, double * npred) -> double
+ |  
+ |  model(self, *args)
+ |      model(GObservation self, GModels const & models, GEvent event, GVector * gradients=None) -> double
+ |      model(GObservation self, GModels const & models, GMatrixSparse * gradients=None) -> GVector
+ |  
+ |  model_grad(self, model, par, event)
+ |      model_grad(GObservation self, GModel const & model, GModelPar const & par, GEvent event) -> double
+ |  
+ |  name(self, *args)
+ |      name(GObservation self, std::string const & name)
+ |      name(GObservation self) -> std::string const &
+ |  
+ |  nobserved(self)
+ |      nobserved(GObservation self) -> int
+ |  
+ |  npred_grad(self, model, par)
+ |      npred_grad(GObservation self, GModel const & model, GModelPar const & par) -> double
+ |  
+ |  remove_response_cache(self, name)
+ |      remove_response_cache(GObservation self, std::string const & name)
+ |  
+ |  statistic(self, *args)
+ |      statistic(GObservation self, std::string const & statistic)
+ |      statistic(GObservation self) -> std::string const &
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
+=== GCOMResponse ===
+Help on class GCOMResponse in module gammalib.com:
+
+class GCOMResponse(gammalib.obs.GResponse)
+ |  GCOMResponse(*args)
+ |  
+ |  Proxy of C++ GCOMResponse class.
+ |  
+ |  Method resolution order:
+ |      GCOMResponse
+ |      gammalib.obs.GResponse
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMResponse self) -> GCOMResponse
+ |      __init__(GCOMResponse self, GCOMResponse rsp) -> GCOMResponse
+ |      __init__(GCOMResponse self, GCaldb const & caldb, std::string const & rspname) -> GCOMResponse
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  caldb(self, *args)
+ |      caldb(GCOMResponse self, GCaldb const & caldb)
+ |      caldb(GCOMResponse self) -> GCaldb const &
+ |  
+ |  classname(self)
+ |      classname(GCOMResponse self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMResponse self)
+ |  
+ |  clone(self)
+ |      clone(GCOMResponse self) -> GCOMResponse
+ |  
+ |  copy(self)
+ |      copy(GCOMResponse self) -> GCOMResponse
+ |  
+ |  ebounds(self, obsEnergy)
+ |      ebounds(GCOMResponse self, GEnergy const & obsEnergy) -> GEbounds
+ |  
+ |  irf(self, event, photon, obs)
+ |      irf(GCOMResponse self, GEvent event, GPhoton const & photon, GObservation obs) -> double
+ |  
+ |  load(self, rspname)
+ |      load(GCOMResponse self, std::string const & rspname)
+ |  
+ |  load_cache(self, filename)
+ |      load_cache(GCOMResponse self, GFilename const & filename)
+ |  
+ |  nroi(self, model, obsEng, obsTime, obs)
+ |      nroi(GCOMResponse self, GModelSky const & model, GEnergy const & obsEng, GTime const & obsTime, GObservation obs) -> double
+ |  
+ |  read(self, hdu)
+ |      read(GCOMResponse self, GFitsImage const & hdu)
+ |  
+ |  rspname(self)
+ |      rspname(GCOMResponse self) -> std::string const &
+ |  
+ |  save_cache(self, filename)
+ |      save_cache(GCOMResponse self, GFilename const & filename)
+ |  
+ |  use_edisp(self)
+ |      use_edisp(GCOMResponse self) -> bool
+ |  
+ |  use_tdisp(self)
+ |      use_tdisp(GCOMResponse self) -> bool
+ |  
+ |  write(self, image)
+ |      write(GCOMResponse self, GFitsImageFloat & image)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMResponse(...)
+ |      delete_GCOMResponse(GCOMResponse self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.obs.GResponse:
+ |  
+ |  convolve(self, model, event, obs, grad=True)
+ |      convolve(GResponse self, GModelSky const & model, GEvent event, GObservation obs, bool const & grad=True) -> double
+ |  
+ |  irf_spatial(self, event, source, obs)
+ |      irf_spatial(GResponse self, GEvent event, GSource source, GObservation obs) -> double
+ |  
+ |  remove_response_cache(self, name)
+ |      remove_response_cache(GResponse self, std::string const & name)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
+=== GCOMRoi ===
+Help on class GCOMRoi in module gammalib.com:
+
+class GCOMRoi(gammalib.obs.GRoi)
+ |  GCOMRoi(*args)
+ |  
+ |  Proxy of C++ GCOMRoi class.
+ |  
+ |  Method resolution order:
+ |      GCOMRoi
+ |      gammalib.obs.GRoi
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMRoi self) -> GCOMRoi
+ |      __init__(GCOMRoi self, GCOMRoi roi) -> GCOMRoi
+ |      __init__(GCOMRoi self, GCOMInstDir centre, double const & radius, double const & phibar_min, double const & phibar_max) -> GCOMRoi
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  centre(self, *args)
+ |      centre(GCOMRoi self) -> GCOMInstDir
+ |      centre(GCOMRoi self, GCOMInstDir centre)
+ |  
+ |  classname(self)
+ |      classname(GCOMRoi self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMRoi self)
+ |  
+ |  clone(self)
+ |      clone(GCOMRoi self) -> GCOMRoi
+ |  
+ |  contains(self, event)
+ |      contains(GCOMRoi self, GEvent event) -> bool
+ |  
+ |  copy(self)
+ |      copy(GCOMRoi self) -> GCOMRoi
+ |  
+ |  phibar_max(self, *args)
+ |      phibar_max(GCOMRoi self) -> double const
+ |      phibar_max(GCOMRoi self, double const & phibar_max)
+ |  
+ |  phibar_min(self, *args)
+ |      phibar_min(GCOMRoi self) -> double const
+ |      phibar_min(GCOMRoi self, double const & phibar_min)
+ |  
+ |  radius(self, *args)
+ |      radius(GCOMRoi self) -> double const
+ |      radius(GCOMRoi self, double const & radius)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMRoi(...)
+ |      delete_GCOMRoi(GCOMRoi self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
+=== GCOMSelection ===
+Help on class GCOMSelection in module gammalib.com:
+
+class GCOMSelection(gammalib.base.GBase)
+ |  GCOMSelection(*args)
+ |  
+ |  Proxy of C++ GCOMSelection class.
+ |  
+ |  Method resolution order:
+ |      GCOMSelection
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMSelection self) -> GCOMSelection
+ |      __init__(GCOMSelection self, GCOMSelection select) -> GCOMSelection
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  classname(self)
+ |      classname(GCOMSelection self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMSelection self)
+ |  
+ |  clone(self)
+ |      clone(GCOMSelection self) -> GCOMSelection
+ |  
+ |  copy(self)
+ |      copy(GCOMSelection self) -> GCOMSelection
+ |  
+ |  e1_max(self, *args)
+ |      e1_max(GCOMSelection self) -> double const
+ |      e1_max(GCOMSelection self, double const & e1_max)
+ |  
+ |  e1_min(self, *args)
+ |      e1_min(GCOMSelection self) -> double const
+ |      e1_min(GCOMSelection self, double const & e1_min)
+ |  
+ |  e2_max(self, *args)
+ |      e2_max(GCOMSelection self) -> double const
+ |      e2_max(GCOMSelection self, double const & e2_max)
+ |  
+ |  e2_min(self, *args)
+ |      e2_min(GCOMSelection self) -> double const
+ |      e2_min(GCOMSelection self, double const & e2_min)
+ |  
+ |  fpmtflag(self, *args)
+ |      fpmtflag(GCOMSelection self) -> int const
+ |      fpmtflag(GCOMSelection self, int const & fpmtflag)
+ |  
+ |  has_pulsar(self)
+ |      has_pulsar(GCOMSelection self) -> bool
+ |  
+ |  init_statistics(self)
+ |      init_statistics(GCOMSelection self)
+ |  
+ |  orbital_period(self, period, time)
+ |      orbital_period(GCOMSelection self, double const & period, GTime const & time)
+ |  
+ |  orbital_phase(self, time)
+ |      orbital_phase(GCOMSelection self, GTime const & time) -> double
+ |  
+ |  orbital_phases(self, *args)
+ |      orbital_phases(GCOMSelection self) -> GPhases const
+ |      orbital_phases(GCOMSelection self, GPhases const & phases)
+ |  
+ |  psd_max(self, *args)
+ |      psd_max(GCOMSelection self) -> int const
+ |      psd_max(GCOMSelection self, int const & psd_max)
+ |  
+ |  psd_min(self, *args)
+ |      psd_min(GCOMSelection self) -> int const
+ |      psd_min(GCOMSelection self, int const & psd_min)
+ |  
+ |  pulsar(self, *args)
+ |      pulsar(GCOMSelection self) -> GPulsar const
+ |      pulsar(GCOMSelection self, GPulsar const & pulsar)
+ |  
+ |  pulsar_phases(self, *args)
+ |      pulsar_phases(GCOMSelection self) -> GPhases const
+ |      pulsar_phases(GCOMSelection self, GPhases const & phases)
+ |  
+ |  read(self, hdu)
+ |      read(GCOMSelection self, GFitsHDU const & hdu)
+ |  
+ |  reflag_max(self, *args)
+ |      reflag_max(GCOMSelection self) -> int const
+ |      reflag_max(GCOMSelection self, int const & reflag_max)
+ |  
+ |  reflag_min(self, *args)
+ |      reflag_min(GCOMSelection self) -> int const
+ |      reflag_min(GCOMSelection self, int const & reflag_min)
+ |  
+ |  tof_max(self, *args)
+ |      tof_max(GCOMSelection self) -> int const
+ |      tof_max(GCOMSelection self, int const & tof_max)
+ |  
+ |  tof_min(self, *args)
+ |      tof_min(GCOMSelection self) -> int const
+ |      tof_min(GCOMSelection self, int const & tof_min)
+ |  
+ |  use_d1(self, *args)
+ |      use_d1(GCOMSelection self, int const & id1) -> bool const
+ |      use_d1(GCOMSelection self, int const & id1, bool const & use)
+ |  
+ |  use_d2(self, *args)
+ |      use_d2(GCOMSelection self, int const & id2) -> bool const
+ |      use_d2(GCOMSelection self, int const & id2, bool const & use)
+ |  
+ |  use_event(self, event)
+ |      use_event(GCOMSelection self, GCOMEventAtom event) -> bool
+ |  
+ |  vetoflag_max(self, *args)
+ |      vetoflag_max(GCOMSelection self) -> int const
+ |      vetoflag_max(GCOMSelection self, int const & vetoflag_max)
+ |  
+ |  vetoflag_min(self, *args)
+ |      vetoflag_min(GCOMSelection self) -> int const
+ |      vetoflag_min(GCOMSelection self, int const & vetoflag_min)
+ |  
+ |  write(self, hdu)
+ |      write(GCOMSelection self, GFitsHDU & hdu)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMSelection(...)
+ |      delete_GCOMSelection(GCOMSelection self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
+=== GCOMStatus ===
+Help on class GCOMStatus in module gammalib.com:
+
+class GCOMStatus(gammalib.base.GBase)
+ |  GCOMStatus(*args)
+ |  
+ |  Proxy of C++ GCOMStatus class.
+ |  
+ |  Method resolution order:
+ |      GCOMStatus
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMStatus self) -> GCOMStatus
+ |      __init__(GCOMStatus self, GCOMStatus status) -> GCOMStatus
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  classname(self)
+ |      classname(GCOMStatus self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMStatus self)
+ |  
+ |  clone(self)
+ |      clone(GCOMStatus self) -> GCOMStatus
+ |  
+ |  copy(self)
+ |      copy(GCOMStatus self) -> GCOMStatus
+ |  
+ |  d1status(self, tjd, module)
+ |      d1status(GCOMStatus self, int const & tjd, int const & module) -> int
+ |  
+ |  d2status(self, tjd, module)
+ |      d2status(GCOMStatus self, int const & tjd, int const & module) -> int
+ |  
+ |  load(self)
+ |      load(GCOMStatus self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMStatus(...)
+ |      delete_GCOMStatus(GCOMStatus self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
+=== GCOMTim ===
+Help on class GCOMTim in module gammalib.com:
+
+class GCOMTim(gammalib.base.GBase)
+ |  GCOMTim(*args)
+ |  
+ |  Proxy of C++ GCOMTim class.
+ |  
+ |  Method resolution order:
+ |      GCOMTim
+ |      gammalib.base.GBase
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __getstate__(self)
+ |  
+ |  __init__(self, *args)
+ |      __init__(GCOMTim self) -> GCOMTim
+ |      __init__(GCOMTim self, GGti const & gti) -> GCOMTim
+ |      __init__(GCOMTim self, GCOMTim tim) -> GCOMTim
+ |      __init__(GCOMTim self, GFilename const & filename, std::string const & usage="YES", std::string const & mode="NORMAL") -> GCOMTim
+ |  
+ |  __repr__ = _swig_repr(self)
+ |  
+ |  __setstate__(self, state)
+ |  
+ |  classname(self)
+ |      classname(GCOMTim self) -> std::string
+ |  
+ |  clear(self)
+ |      clear(GCOMTim self)
+ |  
+ |  clone(self)
+ |      clone(GCOMTim self) -> GCOMTim
+ |  
+ |  contains(self, time)
+ |      contains(GCOMTim self, GTime const & time) -> bool
+ |  
+ |  copy(self)
+ |      copy(GCOMTim self) -> GCOMTim
+ |  
+ |  gti(self, *args)
+ |      gti(GCOMTim self) -> GGti const
+ |      gti(GCOMTim self, GGti const & gti)
+ |  
+ |  load(self, *args)
+ |      load(GCOMTim self, GFilename const & filename, std::string const & usage="YES", std::string const & mode="NORMAL")
+ |  
+ |  read(self, *args)
+ |      read(GCOMTim self, GFitsTable const & table, std::string const & usage="YES", std::string const & mode="NORMAL")
+ |  
+ |  reduce(self, gti)
+ |      reduce(GCOMTim self, GGti const & gti)
+ |  
+ |  save(self, filename, clobber=False)
+ |      save(GCOMTim self, GFilename const & filename, bool const & clobber=False)
+ |  
+ |  write(self, table)
+ |      write(GCOMTim self, GFitsBinTable & table)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  __swig_destroy__ = delete_GCOMTim(...)
+ |      delete_GCOMTim(GCOMTim self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  thisown
+ |      The membership flag
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from gammalib.base.GBase:
+ |  
+ |  __str__(self)
+ |      __str__(GBase self) -> char *
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from gammalib.base.GBase:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+
+
