@@ -1,0 +1,1411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<observation_list title="observation list">
+  <observation name="CAS A" id="vp0034_0_000750-000944keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0034_0_cel_dre_000750-000944keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0034_0_cel_drb_000750-000944keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0034_0_cel_drw_000750-000944keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0034_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0034_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_000750-000944keV.fits" />
+  </observation>
+  <observation name="CAS A" id="vp0034_0_000944-001189keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0034_0_cel_dre_000944-001189keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0034_0_cel_drb_000944-001189keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0034_0_cel_drw_000944-001189keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0034_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0034_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_000944-001189keV.fits" />
+  </observation>
+  <observation name="CAS A" id="vp0034_0_001189-001497keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0034_0_cel_dre_001189-001497keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0034_0_cel_drb_001189-001497keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0034_0_cel_drw_001189-001497keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0034_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0034_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001189-001497keV.fits" />
+  </observation>
+  <observation name="CAS A" id="vp0034_0_001497-001886keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0034_0_cel_dre_001497-001886keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0034_0_cel_drb_001497-001886keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0034_0_cel_drw_001497-001886keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0034_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0034_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001497-001886keV.fits" />
+  </observation>
+  <observation name="CAS A" id="vp0034_0_001886-002375keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0034_0_cel_dre_001886-002375keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0034_0_cel_drb_001886-002375keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0034_0_cel_drw_001886-002375keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0034_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0034_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001886-002375keV.fits" />
+  </observation>
+  <observation name="CAS A" id="vp0034_0_002375-002991keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0034_0_cel_dre_002375-002991keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0034_0_cel_drb_002375-002991keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0034_0_cel_drw_002375-002991keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0034_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0034_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_002375-002991keV.fits" />
+  </observation>
+  <observation name="CAS A" id="vp0034_0_002991-003766keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0034_0_cel_dre_002991-003766keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0034_0_cel_drb_002991-003766keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0034_0_cel_drw_002991-003766keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0034_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0034_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_002991-003766keV.fits" />
+  </observation>
+  <observation name="CAS A" id="vp0034_0_003766-004743keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0034_0_cel_dre_003766-004743keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0034_0_cel_drb_003766-004743keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0034_0_cel_drw_003766-004743keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0034_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0034_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_003766-004743keV.fits" />
+  </observation>
+  <observation name="CAS A" id="vp0034_0_004743-005973keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0034_0_cel_dre_004743-005973keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0034_0_cel_drb_004743-005973keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0034_0_cel_drw_004743-005973keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0034_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0034_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_004743-005973keV.fits" />
+  </observation>
+  <observation name="CAS A" id="vp0034_0_005973-007522keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0034_0_cel_dre_005973-007522keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0034_0_cel_drb_005973-007522keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0034_0_cel_drw_005973-007522keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0034_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0034_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_005973-007522keV.fits" />
+  </observation>
+  <observation name="CAS A" id="vp0034_0_007522-009472keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0034_0_cel_dre_007522-009472keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0034_0_cel_drb_007522-009472keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0034_0_cel_drw_007522-009472keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0034_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0034_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_007522-009472keV.fits" />
+  </observation>
+  <observation name="CAS A" id="vp0034_0_009472-011929keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0034_0_cel_dre_009472-011929keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0034_0_cel_drb_009472-011929keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0034_0_cel_drw_009472-011929keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0034_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0034_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_009472-011929keV.fits" />
+  </observation>
+  <observation name="CAS A" id="vp0034_0_011929-015022keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0034_0_cel_dre_011929-015022keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0034_0_cel_drb_011929-015022keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0034_0_cel_drw_011929-015022keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0034_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0034_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_011929-015022keV.fits" />
+  </observation>
+  <observation name="CAS A" id="vp0034_0_015022-018917keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0034_0_cel_dre_015022-018917keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0034_0_cel_drb_015022-018917keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0034_0_cel_drw_015022-018917keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0034_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0034_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_015022-018917keV.fits" />
+  </observation>
+  <observation name="CAS A" id="vp0034_0_018917-023822keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0034_0_cel_dre_018917-023822keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0034_0_cel_drb_018917-023822keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0034_0_cel_drw_018917-023822keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0034_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0034_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_018917-023822keV.fits" />
+  </observation>
+  <observation name="CAS A" id="vp0034_0_023822-029999keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0034_0_cel_dre_023822-029999keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0034_0_cel_drb_023822-029999keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0034_0_cel_drw_023822-029999keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0034_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0034_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_023822-029999keV.fits" />
+  </observation>
+  <observation name="G 123-05" id="vp0211_0_000750-000944keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0211_0_cel_dre_000750-000944keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0211_0_cel_drb_000750-000944keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0211_0_cel_drw_000750-000944keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0211_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0211_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_000750-000944keV.fits" />
+  </observation>
+  <observation name="G 123-05" id="vp0211_0_000944-001189keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0211_0_cel_dre_000944-001189keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0211_0_cel_drb_000944-001189keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0211_0_cel_drw_000944-001189keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0211_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0211_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_000944-001189keV.fits" />
+  </observation>
+  <observation name="G 123-05" id="vp0211_0_001189-001497keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0211_0_cel_dre_001189-001497keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0211_0_cel_drb_001189-001497keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0211_0_cel_drw_001189-001497keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0211_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0211_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001189-001497keV.fits" />
+  </observation>
+  <observation name="G 123-05" id="vp0211_0_001497-001886keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0211_0_cel_dre_001497-001886keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0211_0_cel_drb_001497-001886keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0211_0_cel_drw_001497-001886keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0211_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0211_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001497-001886keV.fits" />
+  </observation>
+  <observation name="G 123-05" id="vp0211_0_001886-002375keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0211_0_cel_dre_001886-002375keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0211_0_cel_drb_001886-002375keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0211_0_cel_drw_001886-002375keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0211_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0211_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001886-002375keV.fits" />
+  </observation>
+  <observation name="G 123-05" id="vp0211_0_002375-002991keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0211_0_cel_dre_002375-002991keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0211_0_cel_drb_002375-002991keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0211_0_cel_drw_002375-002991keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0211_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0211_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_002375-002991keV.fits" />
+  </observation>
+  <observation name="G 123-05" id="vp0211_0_002991-003766keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0211_0_cel_dre_002991-003766keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0211_0_cel_drb_002991-003766keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0211_0_cel_drw_002991-003766keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0211_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0211_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_002991-003766keV.fits" />
+  </observation>
+  <observation name="G 123-05" id="vp0211_0_003766-004743keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0211_0_cel_dre_003766-004743keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0211_0_cel_drb_003766-004743keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0211_0_cel_drw_003766-004743keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0211_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0211_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_003766-004743keV.fits" />
+  </observation>
+  <observation name="G 123-05" id="vp0211_0_004743-005973keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0211_0_cel_dre_004743-005973keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0211_0_cel_drb_004743-005973keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0211_0_cel_drw_004743-005973keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0211_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0211_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_004743-005973keV.fits" />
+  </observation>
+  <observation name="G 123-05" id="vp0211_0_005973-007522keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0211_0_cel_dre_005973-007522keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0211_0_cel_drb_005973-007522keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0211_0_cel_drw_005973-007522keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0211_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0211_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_005973-007522keV.fits" />
+  </observation>
+  <observation name="G 123-05" id="vp0211_0_007522-009472keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0211_0_cel_dre_007522-009472keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0211_0_cel_drb_007522-009472keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0211_0_cel_drw_007522-009472keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0211_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0211_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_007522-009472keV.fits" />
+  </observation>
+  <observation name="G 123-05" id="vp0211_0_009472-011929keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0211_0_cel_dre_009472-011929keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0211_0_cel_drb_009472-011929keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0211_0_cel_drw_009472-011929keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0211_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0211_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_009472-011929keV.fits" />
+  </observation>
+  <observation name="G 123-05" id="vp0211_0_011929-015022keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0211_0_cel_dre_011929-015022keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0211_0_cel_drb_011929-015022keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0211_0_cel_drw_011929-015022keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0211_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0211_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_011929-015022keV.fits" />
+  </observation>
+  <observation name="G 123-05" id="vp0211_0_015022-018917keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0211_0_cel_dre_015022-018917keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0211_0_cel_drb_015022-018917keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0211_0_cel_drw_015022-018917keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0211_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0211_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_015022-018917keV.fits" />
+  </observation>
+  <observation name="G 123-05" id="vp0211_0_018917-023822keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0211_0_cel_dre_018917-023822keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0211_0_cel_drb_018917-023822keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0211_0_cel_drw_018917-023822keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0211_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0211_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_018917-023822keV.fits" />
+  </observation>
+  <observation name="G 123-05" id="vp0211_0_023822-029999keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0211_0_cel_dre_023822-029999keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0211_0_cel_drb_023822-029999keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0211_0_cel_drw_023822-029999keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0211_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0211_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_023822-029999keV.fits" />
+  </observation>
+  <observation name="GAL147-09" id="vp0325_0_000750-000944keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0325_0_cel_dre_000750-000944keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0325_0_cel_drb_000750-000944keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0325_0_cel_drw_000750-000944keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0325_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0325_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_000750-000944keV.fits" />
+  </observation>
+  <observation name="GAL147-09" id="vp0325_0_000944-001189keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0325_0_cel_dre_000944-001189keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0325_0_cel_drb_000944-001189keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0325_0_cel_drw_000944-001189keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0325_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0325_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_000944-001189keV.fits" />
+  </observation>
+  <observation name="GAL147-09" id="vp0325_0_001189-001497keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0325_0_cel_dre_001189-001497keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0325_0_cel_drb_001189-001497keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0325_0_cel_drw_001189-001497keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0325_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0325_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001189-001497keV.fits" />
+  </observation>
+  <observation name="GAL147-09" id="vp0325_0_001497-001886keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0325_0_cel_dre_001497-001886keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0325_0_cel_drb_001497-001886keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0325_0_cel_drw_001497-001886keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0325_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0325_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001497-001886keV.fits" />
+  </observation>
+  <observation name="GAL147-09" id="vp0325_0_001886-002375keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0325_0_cel_dre_001886-002375keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0325_0_cel_drb_001886-002375keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0325_0_cel_drw_001886-002375keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0325_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0325_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001886-002375keV.fits" />
+  </observation>
+  <observation name="GAL147-09" id="vp0325_0_002375-002991keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0325_0_cel_dre_002375-002991keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0325_0_cel_drb_002375-002991keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0325_0_cel_drw_002375-002991keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0325_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0325_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_002375-002991keV.fits" />
+  </observation>
+  <observation name="GAL147-09" id="vp0325_0_002991-003766keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0325_0_cel_dre_002991-003766keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0325_0_cel_drb_002991-003766keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0325_0_cel_drw_002991-003766keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0325_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0325_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_002991-003766keV.fits" />
+  </observation>
+  <observation name="GAL147-09" id="vp0325_0_003766-004743keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0325_0_cel_dre_003766-004743keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0325_0_cel_drb_003766-004743keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0325_0_cel_drw_003766-004743keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0325_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0325_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_003766-004743keV.fits" />
+  </observation>
+  <observation name="GAL147-09" id="vp0325_0_004743-005973keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0325_0_cel_dre_004743-005973keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0325_0_cel_drb_004743-005973keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0325_0_cel_drw_004743-005973keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0325_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0325_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_004743-005973keV.fits" />
+  </observation>
+  <observation name="GAL147-09" id="vp0325_0_005973-007522keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0325_0_cel_dre_005973-007522keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0325_0_cel_drb_005973-007522keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0325_0_cel_drw_005973-007522keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0325_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0325_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_005973-007522keV.fits" />
+  </observation>
+  <observation name="GAL147-09" id="vp0325_0_007522-009472keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0325_0_cel_dre_007522-009472keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0325_0_cel_drb_007522-009472keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0325_0_cel_drw_007522-009472keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0325_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0325_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_007522-009472keV.fits" />
+  </observation>
+  <observation name="GAL147-09" id="vp0325_0_009472-011929keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0325_0_cel_dre_009472-011929keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0325_0_cel_drb_009472-011929keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0325_0_cel_drw_009472-011929keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0325_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0325_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_009472-011929keV.fits" />
+  </observation>
+  <observation name="GAL147-09" id="vp0325_0_011929-015022keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0325_0_cel_dre_011929-015022keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0325_0_cel_drb_011929-015022keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0325_0_cel_drw_011929-015022keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0325_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0325_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_011929-015022keV.fits" />
+  </observation>
+  <observation name="GAL147-09" id="vp0325_0_015022-018917keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0325_0_cel_dre_015022-018917keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0325_0_cel_drb_015022-018917keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0325_0_cel_drw_015022-018917keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0325_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0325_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_015022-018917keV.fits" />
+  </observation>
+  <observation name="GAL147-09" id="vp0325_0_018917-023822keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0325_0_cel_dre_018917-023822keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0325_0_cel_drb_018917-023822keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0325_0_cel_drw_018917-023822keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0325_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0325_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_018917-023822keV.fits" />
+  </observation>
+  <observation name="GAL147-09" id="vp0325_0_023822-029999keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0325_0_cel_dre_023822-029999keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0325_0_cel_drb_023822-029999keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0325_0_cel_drw_023822-029999keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0325_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0325_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_023822-029999keV.fits" />
+  </observation>
+  <observation name="Cas-A" id="vp0401_0_000750-000944keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0401_0_cel_dre_000750-000944keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0401_0_cel_drb_000750-000944keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0401_0_cel_drw_000750-000944keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0401_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0401_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_000750-000944keV.fits" />
+  </observation>
+  <observation name="Cas-A" id="vp0401_0_000944-001189keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0401_0_cel_dre_000944-001189keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0401_0_cel_drb_000944-001189keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0401_0_cel_drw_000944-001189keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0401_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0401_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_000944-001189keV.fits" />
+  </observation>
+  <observation name="Cas-A" id="vp0401_0_001189-001497keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0401_0_cel_dre_001189-001497keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0401_0_cel_drb_001189-001497keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0401_0_cel_drw_001189-001497keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0401_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0401_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001189-001497keV.fits" />
+  </observation>
+  <observation name="Cas-A" id="vp0401_0_001497-001886keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0401_0_cel_dre_001497-001886keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0401_0_cel_drb_001497-001886keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0401_0_cel_drw_001497-001886keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0401_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0401_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001497-001886keV.fits" />
+  </observation>
+  <observation name="Cas-A" id="vp0401_0_001886-002375keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0401_0_cel_dre_001886-002375keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0401_0_cel_drb_001886-002375keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0401_0_cel_drw_001886-002375keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0401_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0401_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001886-002375keV.fits" />
+  </observation>
+  <observation name="Cas-A" id="vp0401_0_002375-002991keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0401_0_cel_dre_002375-002991keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0401_0_cel_drb_002375-002991keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0401_0_cel_drw_002375-002991keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0401_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0401_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_002375-002991keV.fits" />
+  </observation>
+  <observation name="Cas-A" id="vp0401_0_002991-003766keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0401_0_cel_dre_002991-003766keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0401_0_cel_drb_002991-003766keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0401_0_cel_drw_002991-003766keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0401_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0401_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_002991-003766keV.fits" />
+  </observation>
+  <observation name="Cas-A" id="vp0401_0_003766-004743keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0401_0_cel_dre_003766-004743keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0401_0_cel_drb_003766-004743keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0401_0_cel_drw_003766-004743keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0401_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0401_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_003766-004743keV.fits" />
+  </observation>
+  <observation name="Cas-A" id="vp0401_0_004743-005973keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0401_0_cel_dre_004743-005973keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0401_0_cel_drb_004743-005973keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0401_0_cel_drw_004743-005973keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0401_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0401_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_004743-005973keV.fits" />
+  </observation>
+  <observation name="Cas-A" id="vp0401_0_005973-007522keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0401_0_cel_dre_005973-007522keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0401_0_cel_drb_005973-007522keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0401_0_cel_drw_005973-007522keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0401_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0401_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_005973-007522keV.fits" />
+  </observation>
+  <observation name="Cas-A" id="vp0401_0_007522-009472keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0401_0_cel_dre_007522-009472keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0401_0_cel_drb_007522-009472keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0401_0_cel_drw_007522-009472keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0401_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0401_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_007522-009472keV.fits" />
+  </observation>
+  <observation name="Cas-A" id="vp0401_0_009472-011929keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0401_0_cel_dre_009472-011929keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0401_0_cel_drb_009472-011929keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0401_0_cel_drw_009472-011929keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0401_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0401_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_009472-011929keV.fits" />
+  </observation>
+  <observation name="Cas-A" id="vp0401_0_011929-015022keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0401_0_cel_dre_011929-015022keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0401_0_cel_drb_011929-015022keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0401_0_cel_drw_011929-015022keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0401_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0401_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_011929-015022keV.fits" />
+  </observation>
+  <observation name="Cas-A" id="vp0401_0_015022-018917keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0401_0_cel_dre_015022-018917keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0401_0_cel_drb_015022-018917keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0401_0_cel_drw_015022-018917keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0401_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0401_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_015022-018917keV.fits" />
+  </observation>
+  <observation name="Cas-A" id="vp0401_0_018917-023822keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0401_0_cel_dre_018917-023822keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0401_0_cel_drb_018917-023822keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0401_0_cel_drw_018917-023822keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0401_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0401_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_018917-023822keV.fits" />
+  </observation>
+  <observation name="Cas-A" id="vp0401_0_023822-029999keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0401_0_cel_dre_023822-029999keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0401_0_cel_drb_023822-029999keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0401_0_cel_drw_023822-029999keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0401_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0401_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_023822-029999keV.fits" />
+  </observation>
+  <observation name="QSO 0716+714" id="vp0411_5_000750-000944keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0411_5_cel_dre_000750-000944keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0411_5_cel_drb_000750-000944keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0411_5_cel_drw_000750-000944keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0411_5_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0411_5_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_000750-000944keV.fits" />
+  </observation>
+  <observation name="QSO 0716+714" id="vp0411_5_000944-001189keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0411_5_cel_dre_000944-001189keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0411_5_cel_drb_000944-001189keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0411_5_cel_drw_000944-001189keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0411_5_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0411_5_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_000944-001189keV.fits" />
+  </observation>
+  <observation name="QSO 0716+714" id="vp0411_5_001189-001497keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0411_5_cel_dre_001189-001497keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0411_5_cel_drb_001189-001497keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0411_5_cel_drw_001189-001497keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0411_5_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0411_5_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001189-001497keV.fits" />
+  </observation>
+  <observation name="QSO 0716+714" id="vp0411_5_001497-001886keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0411_5_cel_dre_001497-001886keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0411_5_cel_drb_001497-001886keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0411_5_cel_drw_001497-001886keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0411_5_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0411_5_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001497-001886keV.fits" />
+  </observation>
+  <observation name="QSO 0716+714" id="vp0411_5_001886-002375keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0411_5_cel_dre_001886-002375keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0411_5_cel_drb_001886-002375keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0411_5_cel_drw_001886-002375keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0411_5_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0411_5_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001886-002375keV.fits" />
+  </observation>
+  <observation name="QSO 0716+714" id="vp0411_5_002375-002991keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0411_5_cel_dre_002375-002991keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0411_5_cel_drb_002375-002991keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0411_5_cel_drw_002375-002991keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0411_5_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0411_5_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_002375-002991keV.fits" />
+  </observation>
+  <observation name="QSO 0716+714" id="vp0411_5_002991-003766keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0411_5_cel_dre_002991-003766keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0411_5_cel_drb_002991-003766keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0411_5_cel_drw_002991-003766keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0411_5_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0411_5_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_002991-003766keV.fits" />
+  </observation>
+  <observation name="QSO 0716+714" id="vp0411_5_003766-004743keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0411_5_cel_dre_003766-004743keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0411_5_cel_drb_003766-004743keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0411_5_cel_drw_003766-004743keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0411_5_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0411_5_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_003766-004743keV.fits" />
+  </observation>
+  <observation name="QSO 0716+714" id="vp0411_5_004743-005973keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0411_5_cel_dre_004743-005973keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0411_5_cel_drb_004743-005973keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0411_5_cel_drw_004743-005973keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0411_5_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0411_5_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_004743-005973keV.fits" />
+  </observation>
+  <observation name="QSO 0716+714" id="vp0411_5_005973-007522keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0411_5_cel_dre_005973-007522keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0411_5_cel_drb_005973-007522keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0411_5_cel_drw_005973-007522keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0411_5_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0411_5_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_005973-007522keV.fits" />
+  </observation>
+  <observation name="QSO 0716+714" id="vp0411_5_007522-009472keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0411_5_cel_dre_007522-009472keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0411_5_cel_drb_007522-009472keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0411_5_cel_drw_007522-009472keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0411_5_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0411_5_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_007522-009472keV.fits" />
+  </observation>
+  <observation name="QSO 0716+714" id="vp0411_5_009472-011929keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0411_5_cel_dre_009472-011929keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0411_5_cel_drb_009472-011929keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0411_5_cel_drw_009472-011929keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0411_5_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0411_5_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_009472-011929keV.fits" />
+  </observation>
+  <observation name="QSO 0716+714" id="vp0411_5_011929-015022keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0411_5_cel_dre_011929-015022keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0411_5_cel_drb_011929-015022keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0411_5_cel_drw_011929-015022keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0411_5_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0411_5_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_011929-015022keV.fits" />
+  </observation>
+  <observation name="QSO 0716+714" id="vp0411_5_015022-018917keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0411_5_cel_dre_015022-018917keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0411_5_cel_drb_015022-018917keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0411_5_cel_drw_015022-018917keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0411_5_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0411_5_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_015022-018917keV.fits" />
+  </observation>
+  <observation name="QSO 0716+714" id="vp0411_5_018917-023822keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0411_5_cel_dre_018917-023822keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0411_5_cel_drb_018917-023822keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0411_5_cel_drw_018917-023822keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0411_5_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0411_5_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_018917-023822keV.fits" />
+  </observation>
+  <observation name="QSO 0716+714" id="vp0411_5_023822-029999keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0411_5_cel_dre_023822-029999keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0411_5_cel_drb_023822-029999keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0411_5_cel_drw_023822-029999keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0411_5_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0411_5_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_023822-029999keV.fits" />
+  </observation>
+  <observation name="CAS A-4" id="vp0505_0_000750-000944keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0505_0_cel_dre_000750-000944keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0505_0_cel_drb_000750-000944keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0505_0_cel_drw_000750-000944keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0505_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0505_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_000750-000944keV.fits" />
+  </observation>
+  <observation name="CAS A-4" id="vp0505_0_000944-001189keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0505_0_cel_dre_000944-001189keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0505_0_cel_drb_000944-001189keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0505_0_cel_drw_000944-001189keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0505_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0505_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_000944-001189keV.fits" />
+  </observation>
+  <observation name="CAS A-4" id="vp0505_0_001189-001497keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0505_0_cel_dre_001189-001497keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0505_0_cel_drb_001189-001497keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0505_0_cel_drw_001189-001497keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0505_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0505_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001189-001497keV.fits" />
+  </observation>
+  <observation name="CAS A-4" id="vp0505_0_001497-001886keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0505_0_cel_dre_001497-001886keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0505_0_cel_drb_001497-001886keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0505_0_cel_drw_001497-001886keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0505_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0505_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001497-001886keV.fits" />
+  </observation>
+  <observation name="CAS A-4" id="vp0505_0_001886-002375keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0505_0_cel_dre_001886-002375keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0505_0_cel_drb_001886-002375keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0505_0_cel_drw_001886-002375keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0505_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0505_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001886-002375keV.fits" />
+  </observation>
+  <observation name="CAS A-4" id="vp0505_0_002375-002991keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0505_0_cel_dre_002375-002991keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0505_0_cel_drb_002375-002991keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0505_0_cel_drw_002375-002991keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0505_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0505_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_002375-002991keV.fits" />
+  </observation>
+  <observation name="CAS A-4" id="vp0505_0_002991-003766keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0505_0_cel_dre_002991-003766keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0505_0_cel_drb_002991-003766keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0505_0_cel_drw_002991-003766keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0505_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0505_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_002991-003766keV.fits" />
+  </observation>
+  <observation name="CAS A-4" id="vp0505_0_003766-004743keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0505_0_cel_dre_003766-004743keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0505_0_cel_drb_003766-004743keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0505_0_cel_drw_003766-004743keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0505_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0505_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_003766-004743keV.fits" />
+  </observation>
+  <observation name="CAS A-4" id="vp0505_0_004743-005973keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0505_0_cel_dre_004743-005973keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0505_0_cel_drb_004743-005973keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0505_0_cel_drw_004743-005973keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0505_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0505_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_004743-005973keV.fits" />
+  </observation>
+  <observation name="CAS A-4" id="vp0505_0_005973-007522keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0505_0_cel_dre_005973-007522keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0505_0_cel_drb_005973-007522keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0505_0_cel_drw_005973-007522keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0505_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0505_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_005973-007522keV.fits" />
+  </observation>
+  <observation name="CAS A-4" id="vp0505_0_007522-009472keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0505_0_cel_dre_007522-009472keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0505_0_cel_drb_007522-009472keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0505_0_cel_drw_007522-009472keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0505_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0505_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_007522-009472keV.fits" />
+  </observation>
+  <observation name="CAS A-4" id="vp0505_0_009472-011929keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0505_0_cel_dre_009472-011929keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0505_0_cel_drb_009472-011929keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0505_0_cel_drw_009472-011929keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0505_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0505_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_009472-011929keV.fits" />
+  </observation>
+  <observation name="CAS A-4" id="vp0505_0_011929-015022keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0505_0_cel_dre_011929-015022keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0505_0_cel_drb_011929-015022keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0505_0_cel_drw_011929-015022keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0505_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0505_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_011929-015022keV.fits" />
+  </observation>
+  <observation name="CAS A-4" id="vp0505_0_015022-018917keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0505_0_cel_dre_015022-018917keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0505_0_cel_drb_015022-018917keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0505_0_cel_drw_015022-018917keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0505_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0505_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_015022-018917keV.fits" />
+  </observation>
+  <observation name="CAS A-4" id="vp0505_0_018917-023822keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0505_0_cel_dre_018917-023822keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0505_0_cel_drb_018917-023822keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0505_0_cel_drw_018917-023822keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0505_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0505_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_018917-023822keV.fits" />
+  </observation>
+  <observation name="CAS A-4" id="vp0505_0_023822-029999keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0505_0_cel_dre_023822-029999keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0505_0_cel_drb_023822-029999keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0505_0_cel_drw_023822-029999keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0505_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0505_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_023822-029999keV.fits" />
+  </observation>
+  <observation name="CAS A-1" id="vp0506_0_000750-000944keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0506_0_cel_dre_000750-000944keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0506_0_cel_drb_000750-000944keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0506_0_cel_drw_000750-000944keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0506_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0506_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_000750-000944keV.fits" />
+  </observation>
+  <observation name="CAS A-1" id="vp0506_0_000944-001189keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0506_0_cel_dre_000944-001189keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0506_0_cel_drb_000944-001189keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0506_0_cel_drw_000944-001189keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0506_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0506_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_000944-001189keV.fits" />
+  </observation>
+  <observation name="CAS A-1" id="vp0506_0_001189-001497keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0506_0_cel_dre_001189-001497keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0506_0_cel_drb_001189-001497keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0506_0_cel_drw_001189-001497keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0506_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0506_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001189-001497keV.fits" />
+  </observation>
+  <observation name="CAS A-1" id="vp0506_0_001497-001886keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0506_0_cel_dre_001497-001886keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0506_0_cel_drb_001497-001886keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0506_0_cel_drw_001497-001886keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0506_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0506_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001497-001886keV.fits" />
+  </observation>
+  <observation name="CAS A-1" id="vp0506_0_001886-002375keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0506_0_cel_dre_001886-002375keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0506_0_cel_drb_001886-002375keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0506_0_cel_drw_001886-002375keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0506_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0506_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001886-002375keV.fits" />
+  </observation>
+  <observation name="CAS A-1" id="vp0506_0_002375-002991keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0506_0_cel_dre_002375-002991keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0506_0_cel_drb_002375-002991keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0506_0_cel_drw_002375-002991keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0506_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0506_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_002375-002991keV.fits" />
+  </observation>
+  <observation name="CAS A-1" id="vp0506_0_002991-003766keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0506_0_cel_dre_002991-003766keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0506_0_cel_drb_002991-003766keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0506_0_cel_drw_002991-003766keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0506_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0506_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_002991-003766keV.fits" />
+  </observation>
+  <observation name="CAS A-1" id="vp0506_0_003766-004743keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0506_0_cel_dre_003766-004743keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0506_0_cel_drb_003766-004743keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0506_0_cel_drw_003766-004743keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0506_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0506_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_003766-004743keV.fits" />
+  </observation>
+  <observation name="CAS A-1" id="vp0506_0_004743-005973keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0506_0_cel_dre_004743-005973keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0506_0_cel_drb_004743-005973keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0506_0_cel_drw_004743-005973keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0506_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0506_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_004743-005973keV.fits" />
+  </observation>
+  <observation name="CAS A-1" id="vp0506_0_005973-007522keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0506_0_cel_dre_005973-007522keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0506_0_cel_drb_005973-007522keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0506_0_cel_drw_005973-007522keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0506_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0506_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_005973-007522keV.fits" />
+  </observation>
+  <observation name="CAS A-1" id="vp0506_0_007522-009472keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0506_0_cel_dre_007522-009472keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0506_0_cel_drb_007522-009472keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0506_0_cel_drw_007522-009472keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0506_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0506_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_007522-009472keV.fits" />
+  </observation>
+  <observation name="CAS A-1" id="vp0506_0_009472-011929keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0506_0_cel_dre_009472-011929keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0506_0_cel_drb_009472-011929keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0506_0_cel_drw_009472-011929keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0506_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0506_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_009472-011929keV.fits" />
+  </observation>
+  <observation name="CAS A-1" id="vp0506_0_011929-015022keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0506_0_cel_dre_011929-015022keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0506_0_cel_drb_011929-015022keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0506_0_cel_drw_011929-015022keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0506_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0506_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_011929-015022keV.fits" />
+  </observation>
+  <observation name="CAS A-1" id="vp0506_0_015022-018917keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0506_0_cel_dre_015022-018917keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0506_0_cel_drb_015022-018917keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0506_0_cel_drw_015022-018917keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0506_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0506_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_015022-018917keV.fits" />
+  </observation>
+  <observation name="CAS A-1" id="vp0506_0_018917-023822keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0506_0_cel_dre_018917-023822keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0506_0_cel_drb_018917-023822keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0506_0_cel_drw_018917-023822keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0506_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0506_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_018917-023822keV.fits" />
+  </observation>
+  <observation name="CAS A-1" id="vp0506_0_023822-029999keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0506_0_cel_dre_023822-029999keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0506_0_cel_drb_023822-029999keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0506_0_cel_drw_023822-029999keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0506_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0506_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_023822-029999keV.fits" />
+  </observation>
+  <observation name="CAS A-3" id="vp0503_0_000750-000944keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0503_0_cel_dre_000750-000944keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0503_0_cel_drb_000750-000944keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0503_0_cel_drw_000750-000944keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0503_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0503_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_000750-000944keV.fits" />
+  </observation>
+  <observation name="CAS A-3" id="vp0503_0_000944-001189keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0503_0_cel_dre_000944-001189keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0503_0_cel_drb_000944-001189keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0503_0_cel_drw_000944-001189keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0503_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0503_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_000944-001189keV.fits" />
+  </observation>
+  <observation name="CAS A-3" id="vp0503_0_001189-001497keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0503_0_cel_dre_001189-001497keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0503_0_cel_drb_001189-001497keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0503_0_cel_drw_001189-001497keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0503_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0503_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001189-001497keV.fits" />
+  </observation>
+  <observation name="CAS A-3" id="vp0503_0_001497-001886keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0503_0_cel_dre_001497-001886keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0503_0_cel_drb_001497-001886keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0503_0_cel_drw_001497-001886keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0503_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0503_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001497-001886keV.fits" />
+  </observation>
+  <observation name="CAS A-3" id="vp0503_0_001886-002375keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0503_0_cel_dre_001886-002375keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0503_0_cel_drb_001886-002375keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0503_0_cel_drw_001886-002375keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0503_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0503_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001886-002375keV.fits" />
+  </observation>
+  <observation name="CAS A-3" id="vp0503_0_002375-002991keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0503_0_cel_dre_002375-002991keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0503_0_cel_drb_002375-002991keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0503_0_cel_drw_002375-002991keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0503_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0503_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_002375-002991keV.fits" />
+  </observation>
+  <observation name="CAS A-3" id="vp0503_0_002991-003766keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0503_0_cel_dre_002991-003766keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0503_0_cel_drb_002991-003766keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0503_0_cel_drw_002991-003766keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0503_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0503_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_002991-003766keV.fits" />
+  </observation>
+  <observation name="CAS A-3" id="vp0503_0_003766-004743keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0503_0_cel_dre_003766-004743keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0503_0_cel_drb_003766-004743keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0503_0_cel_drw_003766-004743keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0503_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0503_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_003766-004743keV.fits" />
+  </observation>
+  <observation name="CAS A-3" id="vp0503_0_004743-005973keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0503_0_cel_dre_004743-005973keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0503_0_cel_drb_004743-005973keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0503_0_cel_drw_004743-005973keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0503_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0503_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_004743-005973keV.fits" />
+  </observation>
+  <observation name="CAS A-3" id="vp0503_0_005973-007522keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0503_0_cel_dre_005973-007522keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0503_0_cel_drb_005973-007522keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0503_0_cel_drw_005973-007522keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0503_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0503_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_005973-007522keV.fits" />
+  </observation>
+  <observation name="CAS A-3" id="vp0503_0_007522-009472keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0503_0_cel_dre_007522-009472keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0503_0_cel_drb_007522-009472keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0503_0_cel_drw_007522-009472keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0503_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0503_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_007522-009472keV.fits" />
+  </observation>
+  <observation name="CAS A-3" id="vp0503_0_009472-011929keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0503_0_cel_dre_009472-011929keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0503_0_cel_drb_009472-011929keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0503_0_cel_drw_009472-011929keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0503_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0503_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_009472-011929keV.fits" />
+  </observation>
+  <observation name="CAS A-3" id="vp0503_0_011929-015022keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0503_0_cel_dre_011929-015022keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0503_0_cel_drb_011929-015022keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0503_0_cel_drw_011929-015022keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0503_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0503_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_011929-015022keV.fits" />
+  </observation>
+  <observation name="CAS A-3" id="vp0503_0_015022-018917keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0503_0_cel_dre_015022-018917keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0503_0_cel_drb_015022-018917keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0503_0_cel_drw_015022-018917keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0503_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0503_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_015022-018917keV.fits" />
+  </observation>
+  <observation name="CAS A-3" id="vp0503_0_018917-023822keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0503_0_cel_dre_018917-023822keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0503_0_cel_drb_018917-023822keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0503_0_cel_drw_018917-023822keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0503_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0503_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_018917-023822keV.fits" />
+  </observation>
+  <observation name="CAS A-3" id="vp0503_0_023822-029999keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0503_0_cel_dre_023822-029999keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0503_0_cel_drb_023822-029999keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0503_0_cel_drw_023822-029999keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0503_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0503_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_023822-029999keV.fits" />
+  </observation>
+  <observation name="CAS A-2" id="vp0504_0_000750-000944keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0504_0_cel_dre_000750-000944keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0504_0_cel_drb_000750-000944keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0504_0_cel_drw_000750-000944keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0504_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0504_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_000750-000944keV.fits" />
+  </observation>
+  <observation name="CAS A-2" id="vp0504_0_000944-001189keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0504_0_cel_dre_000944-001189keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0504_0_cel_drb_000944-001189keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0504_0_cel_drw_000944-001189keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0504_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0504_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_000944-001189keV.fits" />
+  </observation>
+  <observation name="CAS A-2" id="vp0504_0_001189-001497keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0504_0_cel_dre_001189-001497keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0504_0_cel_drb_001189-001497keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0504_0_cel_drw_001189-001497keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0504_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0504_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001189-001497keV.fits" />
+  </observation>
+  <observation name="CAS A-2" id="vp0504_0_001497-001886keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0504_0_cel_dre_001497-001886keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0504_0_cel_drb_001497-001886keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0504_0_cel_drw_001497-001886keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0504_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0504_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001497-001886keV.fits" />
+  </observation>
+  <observation name="CAS A-2" id="vp0504_0_001886-002375keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0504_0_cel_dre_001886-002375keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0504_0_cel_drb_001886-002375keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0504_0_cel_drw_001886-002375keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0504_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0504_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001886-002375keV.fits" />
+  </observation>
+  <observation name="CAS A-2" id="vp0504_0_002375-002991keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0504_0_cel_dre_002375-002991keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0504_0_cel_drb_002375-002991keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0504_0_cel_drw_002375-002991keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0504_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0504_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_002375-002991keV.fits" />
+  </observation>
+  <observation name="CAS A-2" id="vp0504_0_002991-003766keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0504_0_cel_dre_002991-003766keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0504_0_cel_drb_002991-003766keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0504_0_cel_drw_002991-003766keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0504_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0504_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_002991-003766keV.fits" />
+  </observation>
+  <observation name="CAS A-2" id="vp0504_0_003766-004743keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0504_0_cel_dre_003766-004743keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0504_0_cel_drb_003766-004743keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0504_0_cel_drw_003766-004743keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0504_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0504_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_003766-004743keV.fits" />
+  </observation>
+  <observation name="CAS A-2" id="vp0504_0_004743-005973keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0504_0_cel_dre_004743-005973keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0504_0_cel_drb_004743-005973keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0504_0_cel_drw_004743-005973keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0504_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0504_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_004743-005973keV.fits" />
+  </observation>
+  <observation name="CAS A-2" id="vp0504_0_005973-007522keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0504_0_cel_dre_005973-007522keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0504_0_cel_drb_005973-007522keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0504_0_cel_drw_005973-007522keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0504_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0504_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_005973-007522keV.fits" />
+  </observation>
+  <observation name="CAS A-2" id="vp0504_0_007522-009472keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0504_0_cel_dre_007522-009472keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0504_0_cel_drb_007522-009472keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0504_0_cel_drw_007522-009472keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0504_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0504_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_007522-009472keV.fits" />
+  </observation>
+  <observation name="CAS A-2" id="vp0504_0_009472-011929keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0504_0_cel_dre_009472-011929keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0504_0_cel_drb_009472-011929keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0504_0_cel_drw_009472-011929keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0504_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0504_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_009472-011929keV.fits" />
+  </observation>
+  <observation name="CAS A-2" id="vp0504_0_011929-015022keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0504_0_cel_dre_011929-015022keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0504_0_cel_drb_011929-015022keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0504_0_cel_drw_011929-015022keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0504_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0504_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_011929-015022keV.fits" />
+  </observation>
+  <observation name="CAS A-2" id="vp0504_0_015022-018917keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0504_0_cel_dre_015022-018917keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0504_0_cel_drb_015022-018917keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0504_0_cel_drw_015022-018917keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0504_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0504_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_015022-018917keV.fits" />
+  </observation>
+  <observation name="CAS A-2" id="vp0504_0_018917-023822keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0504_0_cel_dre_018917-023822keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0504_0_cel_drb_018917-023822keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0504_0_cel_drw_018917-023822keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0504_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0504_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_018917-023822keV.fits" />
+  </observation>
+  <observation name="CAS A-2" id="vp0504_0_023822-029999keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0504_0_cel_dre_023822-029999keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0504_0_cel_drb_023822-029999keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0504_0_cel_drw_023822-029999keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0504_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0504_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_023822-029999keV.fits" />
+  </observation>
+  <observation name="GRO J0004+73" id="vp0530_0_000750-000944keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0530_0_cel_dre_000750-000944keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0530_0_cel_drb_000750-000944keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0530_0_cel_drw_000750-000944keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0530_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0530_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_000750-000944keV.fits" />
+  </observation>
+  <observation name="GRO J0004+73" id="vp0530_0_000944-001189keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0530_0_cel_dre_000944-001189keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0530_0_cel_drb_000944-001189keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0530_0_cel_drw_000944-001189keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0530_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0530_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_000944-001189keV.fits" />
+  </observation>
+  <observation name="GRO J0004+73" id="vp0530_0_001189-001497keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0530_0_cel_dre_001189-001497keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0530_0_cel_drb_001189-001497keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0530_0_cel_drw_001189-001497keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0530_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0530_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001189-001497keV.fits" />
+  </observation>
+  <observation name="GRO J0004+73" id="vp0530_0_001497-001886keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0530_0_cel_dre_001497-001886keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0530_0_cel_drb_001497-001886keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0530_0_cel_drw_001497-001886keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0530_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0530_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001497-001886keV.fits" />
+  </observation>
+  <observation name="GRO J0004+73" id="vp0530_0_001886-002375keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0530_0_cel_dre_001886-002375keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0530_0_cel_drb_001886-002375keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0530_0_cel_drw_001886-002375keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0530_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0530_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001886-002375keV.fits" />
+  </observation>
+  <observation name="GRO J0004+73" id="vp0530_0_002375-002991keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0530_0_cel_dre_002375-002991keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0530_0_cel_drb_002375-002991keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0530_0_cel_drw_002375-002991keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0530_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0530_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_002375-002991keV.fits" />
+  </observation>
+  <observation name="GRO J0004+73" id="vp0530_0_002991-003766keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0530_0_cel_dre_002991-003766keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0530_0_cel_drb_002991-003766keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0530_0_cel_drw_002991-003766keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0530_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0530_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_002991-003766keV.fits" />
+  </observation>
+  <observation name="GRO J0004+73" id="vp0530_0_003766-004743keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0530_0_cel_dre_003766-004743keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0530_0_cel_drb_003766-004743keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0530_0_cel_drw_003766-004743keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0530_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0530_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_003766-004743keV.fits" />
+  </observation>
+  <observation name="GRO J0004+73" id="vp0530_0_004743-005973keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0530_0_cel_dre_004743-005973keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0530_0_cel_drb_004743-005973keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0530_0_cel_drw_004743-005973keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0530_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0530_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_004743-005973keV.fits" />
+  </observation>
+  <observation name="GRO J0004+73" id="vp0530_0_005973-007522keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0530_0_cel_dre_005973-007522keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0530_0_cel_drb_005973-007522keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0530_0_cel_drw_005973-007522keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0530_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0530_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_005973-007522keV.fits" />
+  </observation>
+  <observation name="GRO J0004+73" id="vp0530_0_007522-009472keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0530_0_cel_dre_007522-009472keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0530_0_cel_drb_007522-009472keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0530_0_cel_drw_007522-009472keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0530_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0530_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_007522-009472keV.fits" />
+  </observation>
+  <observation name="GRO J0004+73" id="vp0530_0_009472-011929keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0530_0_cel_dre_009472-011929keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0530_0_cel_drb_009472-011929keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0530_0_cel_drw_009472-011929keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0530_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0530_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_009472-011929keV.fits" />
+  </observation>
+  <observation name="GRO J0004+73" id="vp0530_0_011929-015022keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0530_0_cel_dre_011929-015022keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0530_0_cel_drb_011929-015022keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0530_0_cel_drw_011929-015022keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0530_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0530_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_011929-015022keV.fits" />
+  </observation>
+  <observation name="GRO J0004+73" id="vp0530_0_015022-018917keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0530_0_cel_dre_015022-018917keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0530_0_cel_drb_015022-018917keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0530_0_cel_drw_015022-018917keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0530_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0530_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_015022-018917keV.fits" />
+  </observation>
+  <observation name="GRO J0004+73" id="vp0530_0_018917-023822keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0530_0_cel_dre_018917-023822keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0530_0_cel_drb_018917-023822keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0530_0_cel_drw_018917-023822keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0530_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0530_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_018917-023822keV.fits" />
+  </observation>
+  <observation name="GRO J0004+73" id="vp0530_0_023822-029999keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0530_0_cel_dre_023822-029999keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0530_0_cel_drb_023822-029999keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0530_0_cel_drw_023822-029999keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0530_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0530_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_023822-029999keV.fits" />
+  </observation>
+  <observation name="Gal 110-20" id="vp0713_0_000750-000944keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0713_0_cel_dre_000750-000944keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0713_0_cel_drb_000750-000944keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0713_0_cel_drw_000750-000944keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0713_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0713_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_000750-000944keV.fits" />
+  </observation>
+  <observation name="Gal 110-20" id="vp0713_0_000944-001189keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0713_0_cel_dre_000944-001189keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0713_0_cel_drb_000944-001189keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0713_0_cel_drw_000944-001189keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0713_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0713_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_000944-001189keV.fits" />
+  </observation>
+  <observation name="Gal 110-20" id="vp0713_0_001189-001497keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0713_0_cel_dre_001189-001497keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0713_0_cel_drb_001189-001497keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0713_0_cel_drw_001189-001497keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0713_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0713_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001189-001497keV.fits" />
+  </observation>
+  <observation name="Gal 110-20" id="vp0713_0_001497-001886keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0713_0_cel_dre_001497-001886keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0713_0_cel_drb_001497-001886keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0713_0_cel_drw_001497-001886keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0713_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0713_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001497-001886keV.fits" />
+  </observation>
+  <observation name="Gal 110-20" id="vp0713_0_001886-002375keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0713_0_cel_dre_001886-002375keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0713_0_cel_drb_001886-002375keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0713_0_cel_drw_001886-002375keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0713_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0713_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001886-002375keV.fits" />
+  </observation>
+  <observation name="Gal 110-20" id="vp0713_0_002375-002991keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0713_0_cel_dre_002375-002991keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0713_0_cel_drb_002375-002991keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0713_0_cel_drw_002375-002991keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0713_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0713_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_002375-002991keV.fits" />
+  </observation>
+  <observation name="Gal 110-20" id="vp0713_0_002991-003766keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0713_0_cel_dre_002991-003766keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0713_0_cel_drb_002991-003766keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0713_0_cel_drw_002991-003766keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0713_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0713_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_002991-003766keV.fits" />
+  </observation>
+  <observation name="Gal 110-20" id="vp0713_0_003766-004743keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0713_0_cel_dre_003766-004743keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0713_0_cel_drb_003766-004743keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0713_0_cel_drw_003766-004743keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0713_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0713_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_003766-004743keV.fits" />
+  </observation>
+  <observation name="Gal 110-20" id="vp0713_0_004743-005973keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0713_0_cel_dre_004743-005973keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0713_0_cel_drb_004743-005973keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0713_0_cel_drw_004743-005973keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0713_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0713_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_004743-005973keV.fits" />
+  </observation>
+  <observation name="Gal 110-20" id="vp0713_0_005973-007522keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0713_0_cel_dre_005973-007522keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0713_0_cel_drb_005973-007522keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0713_0_cel_drw_005973-007522keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0713_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0713_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_005973-007522keV.fits" />
+  </observation>
+  <observation name="Gal 110-20" id="vp0713_0_007522-009472keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0713_0_cel_dre_007522-009472keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0713_0_cel_drb_007522-009472keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0713_0_cel_drw_007522-009472keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0713_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0713_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_007522-009472keV.fits" />
+  </observation>
+  <observation name="Gal 110-20" id="vp0713_0_009472-011929keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0713_0_cel_dre_009472-011929keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0713_0_cel_drb_009472-011929keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0713_0_cel_drw_009472-011929keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0713_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0713_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_009472-011929keV.fits" />
+  </observation>
+  <observation name="Gal 110-20" id="vp0713_0_011929-015022keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0713_0_cel_dre_011929-015022keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0713_0_cel_drb_011929-015022keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0713_0_cel_drw_011929-015022keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0713_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0713_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_011929-015022keV.fits" />
+  </observation>
+  <observation name="Gal 110-20" id="vp0713_0_015022-018917keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0713_0_cel_dre_015022-018917keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0713_0_cel_drb_015022-018917keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0713_0_cel_drw_015022-018917keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0713_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0713_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_015022-018917keV.fits" />
+  </observation>
+  <observation name="Gal 110-20" id="vp0713_0_018917-023822keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0713_0_cel_dre_018917-023822keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0713_0_cel_drb_018917-023822keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0713_0_cel_drw_018917-023822keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0713_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0713_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_018917-023822keV.fits" />
+  </observation>
+  <observation name="Gal 110-20" id="vp0713_0_023822-029999keV" instrument="COM">
+    <parameter name="DRE" file="/home/joshua-h/comptel_data/vp0713_0_cel_dre_023822-029999keV.fits" />
+    <parameter name="DRB" file="/home/joshua-h/comptel_data/vp0713_0_cel_drb_023822-029999keV.fits" />
+    <parameter name="DRW" file="/home/joshua-h/comptel_data/vp0713_0_cel_drw_023822-029999keV.fits" />
+    <parameter name="DRG" file="/home/joshua-h/comptel_data/vp0713_0_cel_drg.fits" />
+    <parameter name="DRX" file="/home/joshua-h/comptel_data/vp0713_0_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_023822-029999keV.fits" />
+  </observation>
+</observation_list>
