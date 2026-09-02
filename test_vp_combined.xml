@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<observation_list title="observation list">
+  <observation name="Combined" id="000750-000944keV" instrument="COM">
+    <parameter name="DRE" file="dri/com_000750-000944keV_dre.fits" />
+    <parameter name="DRB" file="dri/com_000750-000944keV_drb.fits" />
+    <parameter name="DRW" file="dri/com_000750-000944keV_drw.fits" />
+    <parameter name="DRG" file="dri/com_drg.fits" />
+    <parameter name="DRX" file="dri/com_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_000750-000944keV.fits" />
+  </observation>
+  <observation name="Combined" id="000944-001189keV" instrument="COM">
+    <parameter name="DRE" file="dri/com_000944-001189keV_dre.fits" />
+    <parameter name="DRB" file="dri/com_000944-001189keV_drb.fits" />
+    <parameter name="DRW" file="dri/com_000944-001189keV_drw.fits" />
+    <parameter name="DRG" file="dri/com_drg.fits" />
+    <parameter name="DRX" file="dri/com_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_000944-001189keV.fits" />
+  </observation>
+  <observation name="Combined" id="001189-001497keV" instrument="COM">
+    <parameter name="DRE" file="dri/com_001189-001497keV_dre.fits" />
+    <parameter name="DRB" file="dri/com_001189-001497keV_drb.fits" />
+    <parameter name="DRW" file="dri/com_001189-001497keV_drw.fits" />
+    <parameter name="DRG" file="dri/com_drg.fits" />
+    <parameter name="DRX" file="dri/com_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001189-001497keV.fits" />
+  </observation>
+  <observation name="Combined" id="001497-001886keV" instrument="COM">
+    <parameter name="DRE" file="dri/com_001497-001886keV_dre.fits" />
+    <parameter name="DRB" file="dri/com_001497-001886keV_drb.fits" />
+    <parameter name="DRW" file="dri/com_001497-001886keV_drw.fits" />
+    <parameter name="DRG" file="dri/com_drg.fits" />
+    <parameter name="DRX" file="dri/com_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001497-001886keV.fits" />
+  </observation>
+  <observation name="Combined" id="001886-002375keV" instrument="COM">
+    <parameter name="DRE" file="dri/com_001886-002375keV_dre.fits" />
+    <parameter name="DRB" file="dri/com_001886-002375keV_drb.fits" />
+    <parameter name="DRW" file="dri/com_001886-002375keV_drw.fits" />
+    <parameter name="DRG" file="dri/com_drg.fits" />
+    <parameter name="DRX" file="dri/com_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_001886-002375keV.fits" />
+  </observation>
+  <observation name="Combined" id="002375-002991keV" instrument="COM">
+    <parameter name="DRE" file="dri/com_002375-002991keV_dre.fits" />
+    <parameter name="DRB" file="dri/com_002375-002991keV_drb.fits" />
+    <parameter name="DRW" file="dri/com_002375-002991keV_drw.fits" />
+    <parameter name="DRG" file="dri/com_drg.fits" />
+    <parameter name="DRX" file="dri/com_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_002375-002991keV.fits" />
+  </observation>
+  <observation name="Combined" id="002991-003766keV" instrument="COM">
+    <parameter name="DRE" file="dri/com_002991-003766keV_dre.fits" />
+    <parameter name="DRB" file="dri/com_002991-003766keV_drb.fits" />
+    <parameter name="DRW" file="dri/com_002991-003766keV_drw.fits" />
+    <parameter name="DRG" file="dri/com_drg.fits" />
+    <parameter name="DRX" file="dri/com_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_002991-003766keV.fits" />
+  </observation>
+  <observation name="Combined" id="003766-004743keV" instrument="COM">
+    <parameter name="DRE" file="dri/com_003766-004743keV_dre.fits" />
+    <parameter name="DRB" file="dri/com_003766-004743keV_drb.fits" />
+    <parameter name="DRW" file="dri/com_003766-004743keV_drw.fits" />
+    <parameter name="DRG" file="dri/com_drg.fits" />
+    <parameter name="DRX" file="dri/com_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_003766-004743keV.fits" />
+  </observation>
+  <observation name="Combined" id="004743-005973keV" instrument="COM">
+    <parameter name="DRE" file="dri/com_004743-005973keV_dre.fits" />
+    <parameter name="DRB" file="dri/com_004743-005973keV_drb.fits" />
+    <parameter name="DRW" file="dri/com_004743-005973keV_drw.fits" />
+    <parameter name="DRG" file="dri/com_drg.fits" />
+    <parameter name="DRX" file="dri/com_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_004743-005973keV.fits" />
+  </observation>
+  <observation name="Combined" id="005973-007522keV" instrument="COM">
+    <parameter name="DRE" file="dri/com_005973-007522keV_dre.fits" />
+    <parameter name="DRB" file="dri/com_005973-007522keV_drb.fits" />
+    <parameter name="DRW" file="dri/com_005973-007522keV_drw.fits" />
+    <parameter name="DRG" file="dri/com_drg.fits" />
+    <parameter name="DRX" file="dri/com_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_005973-007522keV.fits" />
+  </observation>
+  <observation name="Combined" id="007522-009472keV" instrument="COM">
+    <parameter name="DRE" file="dri/com_007522-009472keV_dre.fits" />
+    <parameter name="DRB" file="dri/com_007522-009472keV_drb.fits" />
+    <parameter name="DRW" file="dri/com_007522-009472keV_drw.fits" />
+    <parameter name="DRG" file="dri/com_drg.fits" />
+    <parameter name="DRX" file="dri/com_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_007522-009472keV.fits" />
+  </observation>
+  <observation name="Combined" id="009472-011929keV" instrument="COM">
+    <parameter name="DRE" file="dri/com_009472-011929keV_dre.fits" />
+    <parameter name="DRB" file="dri/com_009472-011929keV_drb.fits" />
+    <parameter name="DRW" file="dri/com_009472-011929keV_drw.fits" />
+    <parameter name="DRG" file="dri/com_drg.fits" />
+    <parameter name="DRX" file="dri/com_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_009472-011929keV.fits" />
+  </observation>
+  <observation name="Combined" id="011929-015022keV" instrument="COM">
+    <parameter name="DRE" file="dri/com_011929-015022keV_dre.fits" />
+    <parameter name="DRB" file="dri/com_011929-015022keV_drb.fits" />
+    <parameter name="DRW" file="dri/com_011929-015022keV_drw.fits" />
+    <parameter name="DRG" file="dri/com_drg.fits" />
+    <parameter name="DRX" file="dri/com_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_011929-015022keV.fits" />
+  </observation>
+  <observation name="Combined" id="015022-018917keV" instrument="COM">
+    <parameter name="DRE" file="dri/com_015022-018917keV_dre.fits" />
+    <parameter name="DRB" file="dri/com_015022-018917keV_drb.fits" />
+    <parameter name="DRW" file="dri/com_015022-018917keV_drw.fits" />
+    <parameter name="DRG" file="dri/com_drg.fits" />
+    <parameter name="DRX" file="dri/com_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_015022-018917keV.fits" />
+  </observation>
+  <observation name="Combined" id="018917-023822keV" instrument="COM">
+    <parameter name="DRE" file="dri/com_018917-023822keV_dre.fits" />
+    <parameter name="DRB" file="dri/com_018917-023822keV_drb.fits" />
+    <parameter name="DRW" file="dri/com_018917-023822keV_drw.fits" />
+    <parameter name="DRG" file="dri/com_drg.fits" />
+    <parameter name="DRX" file="dri/com_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_018917-023822keV.fits" />
+  </observation>
+  <observation name="Combined" id="023822-030000keV" instrument="COM">
+    <parameter name="DRE" file="dri/com_023822-030000keV_dre.fits" />
+    <parameter name="DRB" file="dri/com_023822-030000keV_drb.fits" />
+    <parameter name="DRW" file="dri/com_023822-030000keV_drw.fits" />
+    <parameter name="DRG" file="dri/com_drg.fits" />
+    <parameter name="DRX" file="dri/com_drx.fits" />
+    <parameter name="IAQ" value="/home/joshua-h/comptel_data/iaq_023822-029999keV.fits" />
+  </observation>
+</observation_list>
